@@ -3,22 +3,20 @@ import { Deck, Slide } from 'spectacle';
 import CodeSlide from 'spectacle-code-slide';
 import Terminal from 'spectacle-terminal';
 import '../prism-themes/themes/prism-nova.css';
+import createTheme from 'spectacle-theme-nova';
 import preloader from "spectacle/lib/utils/preloader";
 
 const importSlides = [
   import('./slides/1'),
-  import('./slides/1'),
+  import('./slides/1.5'),
+  import('./slides/1.75'),
   import('./slides/2'),
   import('./slides/3'),
 ];
 
-// const images = {
-//   demoImage: require('../assets/tim-gouw-68319-unsplash.jpg'),
-// };
-// 
-// preloader(images);
-
-const theme = {};
+const theme = createTheme({
+  primary: "black",
+});
 
 export default class Presentation extends Component {
   constructor(props) {
@@ -42,7 +40,7 @@ export default class Presentation extends Component {
   render() {
     const { slides } = this.state;
     return (
-      <Deck transition={[]} transitionDuration={0} progress="pacman">
+      <Deck transition={["fade", "zoom"]} transitionDuration={500} progress="pacman" theme={theme}>
         {slides.map((slide, index) => React.cloneElement(slide, { key: index }))}
       </Deck>
     );
