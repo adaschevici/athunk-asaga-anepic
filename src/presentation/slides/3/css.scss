@@ -1,3 +1,9 @@
 .title {
   color: lighten(blue, 20%) !important;
+  animation: title-spin 2s linear;
+}
+
+@keyframes title-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }

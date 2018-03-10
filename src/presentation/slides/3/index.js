@@ -5,7 +5,6 @@ import preloader from "spectacle/lib/utils/preloader";
 
 import css from './css.scss';
 
-  console.log(css);
 const images = {
   kat: require('../../../assets/kat.png'),
 };
