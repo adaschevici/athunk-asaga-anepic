@@ -3,6 +3,7 @@ import { Appear, Slide, Image, Heading, List, ListItem, Fit, Text } from 'specta
 
 import preloader from "spectacle/lib/utils/preloader";
 import Handle from '../../utils/handle';
+import styles from './style.scss';
 
 const images = {
   onFire: require('../../../assets/thisisfine.jpg'),
@@ -19,6 +20,7 @@ const barSize = {
 export default (
   <Slide
     transition={[]}
+    className={styles.slideSize}
   >
     <Appear>
       <Image

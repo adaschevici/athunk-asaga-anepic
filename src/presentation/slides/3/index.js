@@ -3,7 +3,7 @@ import { Slide, Image, Heading, Appear } from 'spectacle';
 
 import preloader from "spectacle/lib/utils/preloader";
 
-import styles from './css.scss';
+import styles from './style.scss';
 import Handle from '../../utils/handle';
 
 const images = {
@@ -15,6 +15,7 @@ preloader(images);
 export default (
   <Slide
     transition={[]}
+    className={styles.slideSize}
   >
     <div>
       <div className={styles.column}>

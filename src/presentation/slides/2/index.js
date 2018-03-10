@@ -34,7 +34,12 @@ const twitterHandleStyle = {
 };
 
 export default (
-  <Slide transition={["slide", "spin"]} transitionDuration={1000} bgColor="primary" id="profile">
+  <Slide
+    transition={["slide", "spin"]}
+    transitionDuration={1000}
+    bgColor="primary"
+    id="profile"
+  >
     <div style={{ display: "flex", flexDirection: "row", height: "25.000em", width: "21.875em" }}>
       <Image
         src={images.me.replace("/", "")}

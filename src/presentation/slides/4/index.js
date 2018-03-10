@@ -9,6 +9,7 @@ import Handle from '../../utils/handle';
 export default (
   <Slide
     transition={["zoom", "slide"]}
+    className={style.slideSize}
   >
     <div>
       <List >

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Slide, Appear, Heading, Image } from 'spectacle';
-import styles from './css.scss';
+import styles from './style.scss';
 import preloader from "spectacle/lib/utils/preloader";
 
 const images = {

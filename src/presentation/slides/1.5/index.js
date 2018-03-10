@@ -3,6 +3,7 @@ import { Appear, Slide, Image, Heading, List, ListItem, Fit, Text } from 'specta
 
 import preloader from "spectacle/lib/utils/preloader";
 import Handle from '../../utils/handle';
+import styles from './style.scss';
 
 const images = {
   bar: require('../../../assets/bar-pic.jpg'),
@@ -33,6 +34,7 @@ const secondBubble = {
 export default (
   <Slide
     transition={[]}
+    className={styles.slideSize}
   >
     <Image
       src={images.bar.replace('/', '')}
