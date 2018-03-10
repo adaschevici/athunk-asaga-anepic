@@ -1,32 +1,29 @@
 import React from 'react';
-import { Slide, Text, Image, Heading, Appear } from 'spectacle';
+import { Slide, Image, Heading, Appear } from 'spectacle';
 
 import preloader from "spectacle/lib/utils/preloader";
 
-import css from './css.scss';
+import styles from './css.scss';
+import Handle from '../../utils/handle';
 
 const images = {
-  kat: require('../../../assets/kat.png'),
+  redux: require('../../../assets/redux.png'),
 };
-
-preloader(images);
-
-const stayClassyStyle = {
-  width: "2800px",
-  height: "550px",
-  marginTop: "20%",
-};
-
-const midScreen = {
-  marginLeft: '40%',
-};
-
 export default (
   <Slide
     transition={[]}
   >
-    <Heading className={css.title}>
-      Wait huweet?
-    </Heading>
+    <div>
+      <div className={styles.column}>
+        <Heading size={1} className={styles.title}>
+          STATE
+        </Heading>
+        <Image
+          src={images.redux.replace("/", "")}
+          className={styles.redux}
+        />
+      </div>
+      <Handle />
+    </div>
   </Slide>
 );

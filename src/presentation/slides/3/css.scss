@@ -1,5 +1,11 @@
+.column {
+  flex: 1;
+  flex-direction: column;
+}
+
 .title {
-  color: lighten(blue, 20%) !important;
+  color: lighten(red, 20%) !important;
+  font-size: 180px !important;
   animation: title-spin 2s linear;
 }
 
