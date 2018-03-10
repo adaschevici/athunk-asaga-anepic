@@ -4,9 +4,9 @@ import CodeSlide from 'spectacle-code-slide';
 import Terminal from 'spectacle-terminal';
 import '../prism-themes/themes/prism-nova.css';
 import createTheme from 'spectacle-theme-nova';
-import preloader from "spectacle/lib/utils/preloader";
 
 const importSlides = [
+  import('./slides/0'),
   import('./slides/1'),
   import('./slides/1.5'),
   import('./slides/1.75'),
