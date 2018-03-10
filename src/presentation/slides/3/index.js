@@ -9,6 +9,9 @@ import Handle from '../../utils/handle';
 const images = {
   redux: require('../../../assets/redux.png'),
 };
+
+preloader(images);
+
 export default (
   <Slide
     transition={[]}

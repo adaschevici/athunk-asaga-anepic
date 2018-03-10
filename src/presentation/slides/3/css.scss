@@ -6,7 +6,7 @@
 .title {
   color: lighten(red, 20%) !important;
   font-size: 180px !important;
-  animation: title-spin 2s linear;
+  animation: title-spin 0.5s linear;
 }
 
 @keyframes title-spin {
