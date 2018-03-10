@@ -49,5 +49,13 @@ export default (
         />
       </div>
     </Appear>
+    <Appear>
+      <Heading
+        size={2}
+        className={styles.title}
+      >
+        In nature these are peaceful
+      </Heading>
+    </Appear>
   </Slide>
 );

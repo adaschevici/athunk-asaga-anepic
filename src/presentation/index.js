@@ -7,6 +7,7 @@ import createTheme from 'spectacle-theme-nova';
 
 const importSlides = [
   import('./slides/0'),
+  import('./slides/0.5'),
   import('./slides/1'),
   import('./slides/1.5'),
   import('./slides/1.75'),
