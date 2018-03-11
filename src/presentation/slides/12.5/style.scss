@@ -15,3 +15,17 @@
 .item {
   font-size: 40px !important;
 }
+
+.codeSize {
+  font-size: 30px !important;
+}
+
+h1 {
+  font-size: 50px !important;
+}
+
+pre {
+  > code {
+    font-size: 40px !important;
+  }
+}
