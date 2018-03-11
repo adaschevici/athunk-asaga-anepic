@@ -13,6 +13,9 @@ const importSlides = [
   import('./slides/1.75'),
   import('./slides/2'),
   import('./slides/3'),
+  import('./slides/3.25'),
+  import('./slides/3.5'),
+  import('./slides/3.75'),
   import('./slides/4'),
   import('./slides/5'),
 ];

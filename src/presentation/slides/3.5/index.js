@@ -18,26 +18,26 @@ export default (
       <List >
         <Appear>
           <ListItem className={style.item}>
-            Component State
+            Provided State
             <Appear>
               <Text className={style.subtext}>
-                <i>setting internal state in the component, in React it's all about the </i>
-                <code>state </code>
-                <i>object and the </i>
-                <code>setState </code>
-                <i>method</i>
+                <i>state is passed on by providers </i>
+                <i>by the component tree </i>
+                <i>in React this is done via the </i>
+                <code>contextAPI </code>
+                <i>new in React 16</i>
               </Text>
             </Appear>
           </ListItem>
         </Appear>
         <Appear>
           <ListItem className={style.item}>
-            Relative State
+            External State
             <Appear>
               <Text className={style.subtext}>
-                <i>this is state that you pass in through </i>
-                <code>props </code>
-                <i>from parent to child</i>
+                <i>state is mapped via redux state </i>
+                <i>you can communicate to any component in your app via the redux store </i>
+                <i>and </i><code>connect</code>
               </Text>
             </Appear>
           </ListItem>
