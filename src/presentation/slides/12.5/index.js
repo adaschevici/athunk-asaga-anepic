@@ -18,7 +18,7 @@ export default (
       { loc: [0, 270], title: "A boring logger but proves the point" },
       { loc: [0, 1], title: "Let's start, you want to inject the getState" },
       { loc: [1, 2], note: "And you want to return the next state" },
-      { loc: [2, 3] },
-      { loc: [8, 10] },
+      { loc: [4, 7], note: "Get prev state, action and next state" },
+      { loc: [9, 12], note: "Then log them with some fun colors" },
     ]}/>
 );
