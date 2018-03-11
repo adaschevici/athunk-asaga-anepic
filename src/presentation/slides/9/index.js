@@ -16,7 +16,7 @@ export default (
       <Heading
         className={style.title}
       >
-        Control State
+        Location State
       </Heading>
       <Text className={style.subcontent}>
         <i>
