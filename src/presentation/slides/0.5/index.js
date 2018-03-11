@@ -13,7 +13,11 @@ const notes = `However in software engineering...not quite so much. If you don't
   properly more often than not it will come back and haunt you`;
 
 export default (
-  <Slide transition={["zoom", "slide"]} transitionDuration={500} bgColor="primary">
+  <Slide
+    transition={["zoom", "slide"]}
+    transitionDuration={500}
+    bgColor="primary"
+  >
     <Image
       src={images.atomic.replace("/", "")}
       className={styles.atomic}

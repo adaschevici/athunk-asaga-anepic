@@ -10,19 +10,20 @@ export default (
   <Slide
     transition={["zoom", "slide"]}
     className={style.slideSize}
-    id="data-semantic"
+    id="session-semantic"
   >
     <div>
       <Heading
         className={style.title}
       >
-        DATA
+        Control State
       </Heading>
       <Text className={style.subcontent}>
         <i>
-          Data state covers information which your 
-          application temporarily stores about the big wide world. 
-          That is, it covers your business data.
+          When you have information which needs 
+          to be available application-wide, but 
+          its shape is less well defined than your 
+          project’s schedule, it is probably Session state.
         </i>
       </Text>
       <Handle />

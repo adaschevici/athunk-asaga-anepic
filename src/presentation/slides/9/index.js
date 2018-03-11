@@ -10,19 +10,20 @@ export default (
   <Slide
     transition={["zoom", "slide"]}
     className={style.slideSize}
-    id="data-semantic"
+    id="location-semantic"
   >
     <div>
       <Heading
         className={style.title}
       >
-        DATA
+        Control State
       </Heading>
       <Text className={style.subcontent}>
         <i>
-          Data state covers information which your 
-          application temporarily stores about the big wide world. 
-          That is, it covers your business data.
+          What counts as location? Intuitively, I’d say 
+          “anything which you can give someone concrete directions to”. 
+          Concretely: 
+          Location state is that UTF-8 mess which appears in your URL bar.
         </i>
       </Text>
       <Handle />

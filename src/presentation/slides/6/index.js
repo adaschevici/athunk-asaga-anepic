@@ -10,19 +10,19 @@ export default (
   <Slide
     transition={["zoom", "slide"]}
     className={style.slideSize}
-    id="data-semantic"
+    id="communication-semantic"
   >
     <div>
       <Heading
         className={style.title}
       >
-        DATA
+        Communication State
       </Heading>
       <Text className={style.subcontent}>
         <i>
-          Data state covers information which your 
-          application temporarily stores about the big wide world. 
-          That is, it covers your business data.
+          This type of state covers the seemingly simple 
+          things like loading spinners and error messages. 
+          These are used to manage HTTP results and side-effects.
         </i>
       </Text>
       <Handle />

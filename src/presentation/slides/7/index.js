@@ -10,19 +10,20 @@ export default (
   <Slide
     transition={["zoom", "slide"]}
     className={style.slideSize}
-    id="data-semantic"
+    id="control-semantic"
   >
     <div>
       <Heading
         className={style.title}
       >
-        DATA
+        Control State
       </Heading>
       <Text className={style.subcontent}>
         <i>
-          Data state covers information which your 
-          application temporarily stores about the big wide world. 
-          That is, it covers your business data.
+          In contrast to the above two types of state, Control 
+          state does not represent the application’s environment. 
+          Instead, it refers to the state which the user has input 
+          into the app. Form inputs, selected items, things like that.
         </i>
       </Text>
       <Handle />
