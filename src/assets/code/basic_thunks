@@ -1,0 +1,22 @@
+// Eager version
+function yell (text) {
+  console.log(text + '!')
+}
+
+yell('bonjour') // 'bonjour!'
+
+// Lazy (or "thunked") version
+function thunkedYell (text) {
+  return function thunk () {
+    console.log(text + '!')
+  }
+}
+
+const thunk = thunkedYell('bonjour') // no action yet.
+
+// wait for it…
+
+thunk() // 'bonjour!'
+
+const yell        = text =>       console.log(text + '!')
+const thunkedYell = text => () => console.log(text + '!')

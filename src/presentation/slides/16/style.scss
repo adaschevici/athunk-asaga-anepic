@@ -11,4 +11,10 @@
 .title {
   color: lighten(green, 10%) !important;
   font-size: 100px !important;
+  animation: title-spin 0.5s linear;
+}
+
+@keyframes title-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }

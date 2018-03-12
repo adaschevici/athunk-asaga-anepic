@@ -1,22 +1,25 @@
 import React from 'react';
-import { Slide, Image, Heading, Appear } from 'spectacle';
+import { Slide, Image, Heading, Appear, Text } from 'spectacle';
 
 import preloader from "spectacle/lib/utils/preloader";
 
-import styles from './style.scss';
+import style from './style.scss';
 import Handle from '../../utils/handle';
 
 
 export default (
   <Slide
-    transition={[]}
-    className={styles.slideSize}
+    transition={["zoom", "slide"]}
+    className={style.slideSize}
   >
     <div>
-      <div className={styles.column}>
-        <Heading size={3} className={styles.title}>
+      <div className={style.column}>
+        <Heading size={3} className={style.title}>
           Thunks
         </Heading>
+        <Text className={style.content}>
+          The precise definition of a “thunk” varies across contexts. Generally though, thunks are a functional programming technique used to delay computation. Instead of performing some work now, you produce a function body or unevaluated expression (the “thunk”) which can optionally be used to perform the work later.
+        </Text>
       </div>
       <Handle />
     </div>

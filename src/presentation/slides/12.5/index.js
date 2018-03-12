@@ -20,5 +20,7 @@ export default (
       { loc: [1, 2], note: "And you want to return the next state" },
       { loc: [4, 7], note: "Get prev state, action and next state" },
       { loc: [9, 12], note: "Then log them with some fun colors" },
-    ]}/>
+      { loc: [12, 13], note: "Then return the nextState" },
+    ]}
+  />
 );

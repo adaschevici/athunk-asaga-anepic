@@ -3,11 +3,13 @@ import { Appear, Slide, Image, Heading, List, ListItem, Fit, Text } from 'specta
 
 import preloader from "spectacle/lib/utils/preloader";
 import Handle from '../../utils/handle';
-import styles from './style.scss';
+import style from './style.scss';
 
 const images = {
-  onFire: require('../../../assets/thisisfine.jpg'),
+  onFire: require('../../../assets/thisisfine.gif'),
 };
+
+preloader(images);
 
 const titleStyle = {
   fontSize: "356px",
@@ -20,11 +22,12 @@ const barSize = {
 export default (
   <Slide
     transition={[]}
-    className={styles.slideSize}
+    className={style.slideSize}
   >
     <Appear>
       <Image
         src={images.onFire.replace('/', '')}
+        className={style.thisisfine}
         margin="0px auto 40px"
       />
     </Appear>
