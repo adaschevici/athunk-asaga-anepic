@@ -1,0 +1,22 @@
+import { call, put, takeEvery } from 'redux-saga/effects';
+
+import {
+  API_BUTTON_CLICK,
+  API_BUTTON_CLICK_SUCCESS,
+  API_BUTTON_CLICK_ERROR,
+} from './actions/consts';
+import { getDataFromAPI } from './api';
+
+export function* apiSideEffect(action) {
+  try {
+    const data = yield call(getDataFromAPI);
+    yield put({ type: API_BUTTON_CLICK_SUCCESS, payload: data });
+  } catch (e) {
+    yield put({ type: API_BUTTON_CLICK_ERROR, payload: e.message });
+  }
+}
+
+// the 'watcher' - on every 'API_BUTTON_CLICK' action, run our side effect
+export function* apiSaga() {
+  yield takeEvery(API_BUTTON_CLICK, apiSideEffect);
+}
