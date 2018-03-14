@@ -24,7 +24,7 @@ export default (
       <Heading
         className={style.title}
       >
-        However you would deprive your mind from being...
+        However you would prevent your mind from being...
       </Heading>
       <Image
         src={images.mindblown.replace("/", "")}

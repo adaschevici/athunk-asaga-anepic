@@ -1,0 +1,17 @@
+.slideSize {
+  height: 100%;
+}
+
+.column {
+  flex: 1;
+  flex-direction: column;
+}
+
+.saga {
+  color: lighten(red, 20%) !important;
+  font-size: 100px !important;
+}
+
+.content {
+  font-size: 50px !important;
+}

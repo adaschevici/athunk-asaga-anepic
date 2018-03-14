@@ -39,7 +39,12 @@ export default (
 				</Appear>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>you could chain </i> <code>then</code> <i>over</i> <code>then</code>
+            <i>you could chain </i> <code>thens</code> <i>over until  you get bored</i>
+					</ListItem>
+				</Appear>
+        <Appear>
+					<ListItem className={style.item}>
+            <i>you could use</i> <code>Promise</code> <i>thunks and chain</i> <code>thens</code> <i>after you </i><code>dispatch</code>
 					</ListItem>
 				</Appear>
       </List>

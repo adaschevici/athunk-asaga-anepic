@@ -16,6 +16,9 @@ const notes = `the way to handle async actions in your redux store such as api c
   time consuming operations (not ideal), we need to start talking about how to handle
   asynchronous actions in a modular way, thunks, sagas and epics are the best ways today`;
 
+// If you have been using redux for a while, you have run into the problem of
+// changing the state of your application using an async operation such as a timer or a HTTP request.
+//
 export default (
   <Slide
     transition={["zoom", "slide"]}
