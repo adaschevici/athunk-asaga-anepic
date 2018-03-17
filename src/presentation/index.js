@@ -49,6 +49,8 @@ const importSlides = [
   import('./slides/33'),
   import('./slides/34'),
   import('./slides/35'),
+  import('./slides/36'),
+  import('./slides/37'),
 ];
 
 const theme = createTheme({
