@@ -29,10 +29,10 @@ export default (
       <Appear>
         <div>
           <Heading className={style.bigItem}>
-            <code>fork</code>
+            <code>call</code>
           </Heading>
           <Text className={style.item}>
-            <i>performs a non-blocking operation on the function passed</i>
+            <i>runs a function. If it returns a promise, pauses the saga until the promise is resolved</i>
           </Text>
         </div>
       </Appear>

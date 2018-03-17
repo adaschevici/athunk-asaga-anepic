@@ -29,10 +29,10 @@ export default (
       <Appear>
         <div>
           <Heading className={style.bigItem}>
-            <code>fork</code>
+            <code>takeLatest</code>
           </Heading>
           <Text className={style.item}>
-            <i>performs a non-blocking operation on the function passed</i>
+            <i>means we are going to execute the operations, then return only the results of the last one call. If we trigger several cases, it’s going to ignore all of them except the last one</i>
           </Text>
         </div>
       </Appear>

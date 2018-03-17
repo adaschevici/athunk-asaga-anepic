@@ -29,10 +29,10 @@ export default (
       <Appear>
         <div>
           <Heading className={style.bigItem}>
-            <code>fork</code>
+            <code>race</code>
           </Heading>
           <Text className={style.item}>
-            <i>performs a non-blocking operation on the function passed</i>
+            <i>runs effects simultaneously, then cancels them all once one finishes</i>
           </Text>
         </div>
       </Appear>
