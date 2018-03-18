@@ -1,0 +1,57 @@
+function* loadUser() {
+  try {
+   //1st step
+    const user = yield call(getUser);
+   //2nd step
+    yield put({type: 'FETCH_USER_SUCCESS', payload: user});
+  } catch(error) {
+    yield put({type: 'FETCH_FAILED', error});
+  }
+}
+
+function* loadDashboardSequenced() {
+ try {
+
+  yield take(‘FETCH_USER_SUCCESS’);
+  const user = yield select(state => state.user);
+
+  const departure = yield call(loadDeparture, user);
+  const flight = yield call(loadFlight, departure.flightID);
+  const forecast = yield call(loadForecast, departure.date);
+  yield put({type: ‘FETCH_DASHBOARD_SUCCESS’, payload: {forecast,  flight, departure} });
+  } catch(error) {
+    yield put({type: ‘FETCH_FAILED’, error: error.message});
+  }
+}
+
+function* loadDashboardNonSequenced() {
+  try {
+    //Wait for the user to be loaded
+    yield take('FETCH_USER_SUCCESS');
+    //Take the user info from the store
+    const user = yield select(getUserFromState);
+    //Get Departure information
+    const departure = yield call(loadDeparture, user);
+    //Here is when the magic happens
+    const [flight, forecast] = yield [call(loadFlight, departure.flightID), call(loadForecast, departure.date)];
+    //Tell the store we are ready to be displayed
+    yield put({type: 'FETCH_DASHBOARD2_SUCCESS', payload: {departure, flight, forecast}});
+} catch(error) {
+    yield put({type: 'FETCH_FAILED', error: error.message});
+  }
+}
+
+function* rootSaga() {
+  yield[
+    fork(loadUser),
+    takeLatest('LOAD_DASHBOARD', loadDashboardSequenced),
+    takeLatest('LOAD_DASHBOARD2' loadDashboardNonSequenced)
+  ];
+}
+
+
+const sagaMiddleware = createSagaMiddleware();
+const store = createStore(rootReducer, [], compose(
+      applyMiddleware(sagaMiddleware)  
+);
+sagaMiddleware.run(rootSaga); /* inject our sagas into the middleware*/
