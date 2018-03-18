@@ -16,7 +16,6 @@ export default (
   <Slide
     transition={["zoom", "slide"]}
     className={style.slideSize}
-    bgImage={images.sagas}
   >
     <Heading size={1} className={style.epic}>
       Epics
