@@ -17,7 +17,7 @@ const notes = `Sagas as a concept are based on a really cool microservices desig
 
 export default (
   <Slide
-    transition={[]}
+    transition={["zoom", "slide"]}
     className={style.slideSize}
   >
     <Heading size={1} className={style.saga}>

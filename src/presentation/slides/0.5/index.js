@@ -16,11 +16,7 @@ export default (
   <Slide
     transition={["zoom", "slide"]}
     transitionDuration={500}
-    bgColor="primary"
+    bgImage={images.atomic}
   >
-    <Image
-      src={images.atomic.replace("/", "")}
-      className={styles.atomic}
-    />
   </Slide>
 );

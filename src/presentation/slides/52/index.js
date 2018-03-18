@@ -16,17 +16,16 @@ export default (
   <Slide
     transition={["zoom", "slide"]}
     className={style.slideSize}
+    bgImage={images.sagas}
   >
-    <Heading size={1} className={style.saga}>
-      Sagas
+    <Heading size={1} className={style.epic}>
+      Epics
     </Heading>
     <Text
       className={style.content}
     >
-      redux-saga is a library that aims to make side effects 
-      (i.e. asynchronous things like data fetching and impure 
-      things like accessing the browser cache) in React/Redux 
-      applications easier and better.
+      Redux-observable is middleware for Redux that uses RxJS under the hood to turn every action emitted by your Redux app into an observable stream. 
+      The core primitive of redux-observable is called an epic.
     </Text>
     <Handle />
   </Slide>

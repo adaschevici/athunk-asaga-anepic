@@ -19,7 +19,7 @@ const notes = `Sagas are the way to do side effects in your redux apps
 
 export default (
   <Slide
-    transition={[]}
+    transition={["zoom", "slide"]}
     className={style.slideSize}
   >
     <Heading size={1} className={style.saga}>

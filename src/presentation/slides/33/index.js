@@ -5,6 +5,13 @@ import preloader from "spectacle/lib/utils/preloader";
 
 import style from './style.scss';
 import Handle from '../../utils/handle';
+import PhotoCredit from '../../utils/photo-credit';
+
+const images = {
+  travel: require('../../../assets/flight-booking.jpg'),
+};
+
+preloader(images);
 
 const notes = `you can hijack the action functionality completely, you can cancel actions
   throttle, debounce`;
@@ -13,6 +20,8 @@ export default (
   <Slide
     transition={["zoom", "slide"]}
     className={style.slideSize}
+    bgImage={images.travel}
+    bgDarken={0.5}
   >
     <div>
       <Heading
@@ -44,6 +53,7 @@ export default (
 				</Appear>
       </List>
       <Handle />
+      <PhotoCredit text="Photo by Nils Nedel on Unsplash" />
     </div>
   </Slide>
 );

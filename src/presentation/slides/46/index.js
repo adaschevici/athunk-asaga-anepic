@@ -20,7 +20,7 @@ const notes = `Whats going to happen is that once the app dispatches one of load
 
 export default (
  <CodeSlide
-    transition={[]}
+    transition={["zoom", "slide"]}
     lang="js"
     bgColor="#002833"
     code={require("raw-loader!../../../assets/code/saga_flights")}

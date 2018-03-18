@@ -23,13 +23,8 @@ export default (
   <Slide
     transition={["slide", "spin"]}
     align="center flex-start"
-    style={backgroundStyle}
+    bgImage={images.stayClassy}
   >
-    <Image
-      src={images.stayClassy.replace("/", "")}
-      margin="0px auto 40px"
-      style={stayClassyStyle}
-    />
     <Text size={1} textColor="secondary" style={{ color: "#716ada" }}>Stay Classy Bucharest</Text>
   </Slide>
 );

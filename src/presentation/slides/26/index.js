@@ -14,7 +14,7 @@ preloader(images);
 
 export default (
   <Slide
-    transition={[]}
+    transition={["zoom", "slide"]}
     className={style.slideSize}
   >
     <Heading size={1} className={style.saga}>

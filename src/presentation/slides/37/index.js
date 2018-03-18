@@ -18,7 +18,7 @@ const notes = `Generators are the basic building blocks for sagas
 
 export default (
   <Slide
-    transition={[]}
+    transition={["zoom", "slide"]}
     className={style.slideSize}
   >
     <Heading size={1} className={style.saga}>

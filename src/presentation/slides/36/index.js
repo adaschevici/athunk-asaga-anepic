@@ -20,7 +20,7 @@ const notes = `We can create a generator quite easily, we use the superstart syn
 
 export default (
  <CodeSlide
-    transition={[]}
+    transition={["zoom", "slide"]}
     lang="js"
     bgColor="#002833"
     code={require("raw-loader!../../../assets/code/generator")}
