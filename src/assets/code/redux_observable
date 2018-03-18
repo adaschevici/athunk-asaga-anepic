@@ -1,0 +1,22 @@
+const test = () =>
+  Observable.of({ type: ‘TEST’, data: ‘hello world’ });
+dispatch(test);
+
+const manyActions = () => [{ type: 'TEST1' }, { type: 'TEST2' }];
+dispatch(manyActions);
+
+const startTicking = () =>
+  Observable.interval(1000)
+    .map((i) => ({ type: 'TICK', i });
+const sub = dispatch(startTicking);
+
+sub.unsubscribe();
+
+const startTicking = (actions, store) =>
+  Observable.interval(1000)
+    .map((i) => ({ type: 'TICK', i }))
+    .takeUntil(actions.ofType('STOP_TICK'));
+dispatch(startTicking);
+
+// to stop the ticking actions at a later point
+dispatch({ type: 'STOP_TICK' });
