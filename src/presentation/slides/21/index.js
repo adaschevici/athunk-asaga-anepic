@@ -46,17 +46,17 @@ export default (
       <List>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>Con A: inconsistent API</i>
+            <i>😱 inconsistent API</i>
 					</ListItem>
 				</Appear>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>Con B: Impurity</i>
+            <i>😱 Impurity</i>
 					</ListItem>
 				</Appear>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>Con C: Tight Coupling</i>
+            <i>😱 Tight Coupling</i>
 					</ListItem>
 				</Appear>
       </List>
