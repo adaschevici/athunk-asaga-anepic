@@ -21,7 +21,7 @@ const notes = `// The thunk itself (dispatch => axios.get…) has not yet been c
 
 export default (
  <CodeSlide
-    transition={[]}
+    transition={["slide", "spin"]}
     lang="js"
     bgColor="#002833"
     code={require("raw-loader!../../../assets/code/thunk_middleware")}

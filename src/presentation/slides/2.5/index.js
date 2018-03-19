@@ -12,7 +12,7 @@ preloader(images);
 
 const avatarStyle = {
   position: 'absolute',
-  marginTop: '25%',
+  marginTop: '35%',
   marginLeft: '35%',
   height: '60%',
   borderRadius: "18.750em",

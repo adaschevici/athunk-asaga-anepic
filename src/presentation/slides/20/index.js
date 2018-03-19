@@ -18,7 +18,7 @@ preloader(images);
 
 export default (
  <CodeSlide
-    transition={[]}
+    transition={["slide", "spin"]}
     lang="js"
     bgColor="#002833"
     code={require("raw-loader!../../../assets/code/bad_async_action")}

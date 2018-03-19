@@ -17,14 +17,12 @@ export default (
     <div>
       <Appear>
         <div className={style.item}>
-          Component State
+          External State
           <Appear>
             <Text className={style.subtext}>
-              <i>setting internal state in the component, in React it's all about the </i>
-              <code className={style.highlighted}>state </code>
-              <i>object and the </i>
-              <code className={style.highlighted}>setState </code>
-              <i>method</i>
+              <i>state is mapped via redux state </i>
+              <i>you can communicate to any component in your app via the redux store </i>
+              <i>and </i><code className={style.highlighted}>connect</code>
             </Text>
           </Appear>
         </div>

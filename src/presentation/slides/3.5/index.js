@@ -15,34 +15,20 @@ export default (
     className={style.slideSize}
   >
     <div>
-      <List >
-        <Appear>
-          <ListItem className={style.item}>
-            Provided State
-            <Appear>
-              <Text className={style.subtext}>
-                <i>state is passed on by providers </i>
-                <i>by the component tree </i>
-                <i>in React this is done via the </i>
-                <code>contextAPI </code>
-                <i>new in React 16</i>
-              </Text>
-            </Appear>
-          </ListItem>
-        </Appear>
-        <Appear>
-          <ListItem className={style.item}>
-            External State
-            <Appear>
-              <Text className={style.subtext}>
-                <i>state is mapped via redux state </i>
-                <i>you can communicate to any component in your app via the redux store </i>
-                <i>and </i><code>connect</code>
-              </Text>
-            </Appear>
-          </ListItem>
-        </Appear>
-      </List>
+      <Appear>
+        <div className={style.item}>
+          Provided State
+          <Appear>
+            <Text className={style.subtext}>
+              <i>state is passed on by providers </i>
+              <i>by the component tree </i>
+              <i>in React this is done via the </i>
+              <code className={style.highlighted}>contextAPI </code>
+              <i>new in React 16</i>
+            </Text>
+          </Appear>
+        </div>
+      </Appear>
       <Handle />
     </div>
   </Slide>

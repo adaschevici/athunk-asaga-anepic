@@ -35,22 +35,22 @@ export default (
       <List>
 				<Appear>
 					<ListItem className={style.item}>
-						<i>First it captures the previous state</i>
+						<i>first it captures the previous state</i>
 					</ListItem>
 				</Appear>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>The action is dispatched to the next middleware function</i>
+            <i>the action is dispatched to the next middleware function</i>
 					</ListItem>
 				</Appear>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>All downstream middleware functions in the chain are invoked</i>
+            <i>all downstream middleware functions in the chain are invoked</i>
 					</ListItem>
 				</Appear>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>The reducer functions in the store are called with the action payload</i>
+            <i>the reducer functions in the store are called with the action payload</i>
 					</ListItem>
 				</Appear>
       </List>

@@ -17,14 +17,12 @@ export default (
     <div>
       <Appear>
         <div className={style.item}>
-          Component State
+          Relative State
           <Appear>
             <Text className={style.subtext}>
-              <i>setting internal state in the component, in React it's all about the </i>
-              <code className={style.highlighted}>state </code>
-              <i>object and the </i>
-              <code className={style.highlighted}>setState </code>
-              <i>method</i>
+              <i>this is state that you pass in through </i>
+              <code className={style.highlighted}>props </code>
+              <i>from parent to child</i>
             </Text>
           </Appear>
         </div>
