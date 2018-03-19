@@ -1,17 +1,14 @@
 import React from 'react';
-import { Slide, Text, Image } from 'spectacle';
+import { Slide, Heading, Image } from 'spectacle';
 
 import preloader from "spectacle/lib/utils/preloader";
+import style from './style.scss';
 
 const images = {
   stayClassy: require('../../../assets/stay-classy.jpg'),
 };
 
 preloader(images);
-
-const backgroundStyle = {
-  backgroundImage: `url(${images.stayClassy})`,
-};
 
 const stayClassyStyle = {
   width: "2800px",
@@ -25,6 +22,12 @@ export default (
     align="center flex-start"
     bgImage={images.stayClassy}
   >
-    <Text size={1} textColor="secondary" style={{ color: "#716ada" }}>Stay Classy Bucharest</Text>
+    <Heading
+      size={1}
+      textColor="secondary"
+      className={style.caption}
+    >
+      Stay Classy Bucharest
+    </Heading>
   </Slide>
 );
