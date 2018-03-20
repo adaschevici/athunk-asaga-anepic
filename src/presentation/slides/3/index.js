@@ -12,6 +12,10 @@ const images = {
 
 preloader(images);
 
+const notes = `But i am not really here to talk to you about my job but rather the challenges
+  i face on a day to day using react. The thing that gets my goat is STATE. There are two ways to reason about state.
+  The first one is the way it is implemented as in what level of the stack it is located at if you were to think MVC`;
+
 export default (
   <Slide
     transition={[]}

@@ -12,11 +12,14 @@ preloader(images);
 
 const avatarStyle = {
   position: 'absolute',
-  marginTop: '35%',
+  marginTop: '30%',
   marginLeft: '35%',
   height: '60%',
   borderRadius: "18.750em",
 };
+
+const notes = `I work in a startup where we aim to provide families with a system that allows
+  them to have peace of mind about their loved ones as they grow old.`;
 
 export default (
   <Slide
