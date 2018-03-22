@@ -29,7 +29,7 @@ export default (
       <List>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>in simplistic cases the thunks don't add too much overhead because if it's simple you need to catch a single</i> <code>fail</code>
+            <i>in trivial cases the thunks don't add too much overhead because if it's simple you need to catch a single</i> <code className={style.highlight}>fail</code>
 					</ListItem>
 				</Appear>
 				<Appear>

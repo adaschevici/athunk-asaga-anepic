@@ -26,16 +26,14 @@ export default (
       >
         <i>(continued - effects)</i>
       </Heading>
-      <Appear>
-        <div>
-          <Heading className={style.bigItem}>
-            <code>put</code>
-          </Heading>
-          <Text className={style.item}>
-            <i>dispatches an action</i>
-          </Text>
-        </div>
-      </Appear>
+      <div>
+        <Heading className={style.bigItem}>
+          <code>put</code>
+        </Heading>
+        <Text className={style.item}>
+          <i>dispatches an action</i>
+        </Text>
+      </div>
       <Handle />
     </div>
   </Slide>

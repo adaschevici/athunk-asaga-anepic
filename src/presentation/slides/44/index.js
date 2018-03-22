@@ -26,16 +26,14 @@ export default (
       >
         <i>(continued - effects)</i>
       </Heading>
-      <Appear>
-        <div>
-          <Heading className={style.bigItem}>
-            <code>takeLatest</code>
-          </Heading>
-          <Text className={style.item}>
-            <i>means we are going to execute the operations, then return only the results of the last one call. If we trigger several cases, it’s going to ignore all of them except the last one</i>
-          </Text>
-        </div>
-      </Appear>
+      <div>
+        <Heading className={style.bigItem}>
+          <code>takeLatest</code>
+        </Heading>
+        <Text className={style.item}>
+          <i>means we are going to execute the operations, then return only the results of the last one call. If we trigger several cases, it’s going to ignore all of them except the last one</i>
+        </Text>
+      </div>
       <Handle />
     </div>
   </Slide>

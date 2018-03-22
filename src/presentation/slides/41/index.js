@@ -26,16 +26,14 @@ export default (
       >
         <i>(continued - effects)</i>
       </Heading>
-      <Appear>
-        <div>
-          <Heading className={style.bigItem}>
-            <code>call</code>
-          </Heading>
-          <Text className={style.item}>
-            <i>runs a function. If it returns a promise, pauses the saga until the promise is resolved</i>
-          </Text>
-        </div>
-      </Appear>
+      <div>
+        <Heading className={style.bigItem}>
+          <code>call</code>
+        </Heading>
+        <Text className={style.item}>
+          <i>runs a function. If it returns a promise, pauses the saga until the promise is resolved</i>
+        </Text>
+      </div>
       <Handle />
     </div>
   </Slide>

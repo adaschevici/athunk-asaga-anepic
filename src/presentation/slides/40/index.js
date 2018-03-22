@@ -26,16 +26,14 @@ export default (
       >
         <i>(continued - effects)</i>
       </Heading>
-      <Appear>
-        <div>
-          <Heading className={style.bigItem}>
-            <code>race</code>
-          </Heading>
-          <Text className={style.item}>
-            <i>runs effects simultaneously, then cancels them all once one finishes</i>
-          </Text>
-        </div>
-      </Appear>
+      <div>
+        <Heading className={style.bigItem}>
+          <code>race</code>
+        </Heading>
+        <Text className={style.item}>
+          <i>runs effects simultaneously, then cancels them all once one finishes</i>
+        </Text>
+      </div>
       <Handle />
     </div>
   </Slide>

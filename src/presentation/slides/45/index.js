@@ -26,16 +26,14 @@ export default (
       >
         <i>(continued - effects)</i>
       </Heading>
-      <Appear>
-        <div>
-          <Heading className={style.bigItem}>
-            <code>takeEvery</code>
-          </Heading>
-          <Text className={style.item}>
-            <i>will return results for all the calls triggered</i>
-          </Text>
-        </div>
-      </Appear>
+      <div>
+        <Heading className={style.bigItem}>
+          <code>takeEvery</code>
+        </Heading>
+        <Text className={style.item}>
+          <i>will return results for all the calls triggered</i>
+        </Text>
+      </div>
       <Handle />
     </div>
   </Slide>

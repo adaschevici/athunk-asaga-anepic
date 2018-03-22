@@ -26,16 +26,14 @@ export default (
       >
         <i>(continued - effects)</i>
       </Heading>
-      <Appear>
-        <div>
-          <Heading className={style.bigItem}>
-            <code>select</code>
-          </Heading>
-          <Text className={style.item}>
-            <i>runs a selector function to get data from state</i>
-          </Text>
-        </div>
-      </Appear>
+      <div>
+        <Heading className={style.bigItem}>
+          <code>select</code>
+        </Heading>
+        <Text className={style.item}>
+          <i>runs a selector function to get data from state</i>
+        </Text>
+      </div>
       <Handle />
     </div>
   </Slide>

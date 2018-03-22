@@ -29,12 +29,12 @@ export default (
       <List>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>sagas are implemented using </i><code>generators</code><i>, functions that can pause or resume from outside</i>
+            <i>sagas are implemented using </i><code className={style.highlight}>generators</code><i>, functions that can pause or resume from outside</i>
 					</ListItem>
 				</Appear>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>the controlling function is the iterator through </i> <code>next()</code> <i>and</i> <code>throw()</code>
+            <i>the controlling function is the iterator through </i> <code className={style.highlight}>next()</code> <i>and</i> <code className={style.highlight}>throw()</code>
 					</ListItem>
 				</Appear>
       </List>
