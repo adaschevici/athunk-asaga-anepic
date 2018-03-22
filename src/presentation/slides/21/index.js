@@ -46,7 +46,7 @@ export default (
       <List>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>😱 inconsistent API</i>
+            <i>😱 Inconsistent API</i>
 					</ListItem>
 				</Appear>
 				<Appear>
