@@ -39,7 +39,7 @@ export default (
 				</Appear>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>you can use <code>proxies</code> <code>generators</code> and <code>getters</code> to implement lazy evaluation in JS</i>
+            <i>you can use <code className={style.highlight}>proxies</code>, <code className={style.highlight}>generators</code> and <code className={style.highlight}>getters</code> to implement lazy evaluation in JS</i>
 					</ListItem>
 				</Appear>
       </List>
