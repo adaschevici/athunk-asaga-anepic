@@ -1,0 +1,19 @@
+.slideSize {
+  height: 100%;
+}
+
+.column {
+  flex: 1;
+  flex-direction: column;
+}
+
+.title {
+  color: lighten(orange, 20%) !important;
+  font-size: 150px !important;
+  animation: title-spin 0.5s linear;
+}
+
+@keyframes title-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

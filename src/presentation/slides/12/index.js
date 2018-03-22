@@ -35,17 +35,17 @@ export default (
       <List>
 				<Appear>
 					<ListItem className={style.item}>
-						<i>are appended to the</i> <code>dispatch</code> <i>methods of your store</i>
+						<i>are appended to the</i> <code className={style.highlight}>dispatch</code> <i>methods of your store</i>
 					</ListItem>
 				</Appear>
 				<Appear>
 					<ListItem className={style.item}>
-						<i>you have access to all the store state by injecting</i> <code>getState</code>
+						<i>you have access to all the store state by injecting</i> <code className={style.highlight}>getState</code>
 					</ListItem>
 				</Appear>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>you can wait for responses to</i> <code>HTTP</code> <i>requests</i>
+            <i>you can wait for responses to</i> <code className={style.highlightOlive}>HTTP</code> <i>requests</i>
             <i> using Asynchronous Middleware</i>
 					</ListItem>
 				</Appear>
