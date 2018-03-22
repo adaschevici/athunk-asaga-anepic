@@ -29,7 +29,7 @@ export default (
       <Appear>
         <div>
           <Text className={style.item}>
-            <i>always handle your errors because it is as easy as writing a </i><code>catch</code><i> clause</i>
+            <i>always handle your errors because it is as easy as writing a </i><code className={style.highlight}>catch</code><i> clause</i>
           </Text>
         </div>
       </Appear>

@@ -36,7 +36,7 @@ export default (
       <Appear>
         <div>
           <Text className={style.item}>
-            <i>wrap your </i><code>AJAX</code><i>-y requests in </i><code>call</code> <i>to wait for the result</i>
+            <i>wrap your </i><code className={style.highlight}>AJAX</code><i>-y requests in </i><code className={style.highlight}>call</code> <i>to wait for the result</i>
           </Text>
         </div>
       </Appear>
