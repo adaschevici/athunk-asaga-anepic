@@ -31,7 +31,7 @@ export default (
     <List>
       <Appear>
         <ListItem className={style.item}>
-          <i>the composability of epics and the magic comes from</i> <code>RxJs.</code>
+          <i>the composability of epics and the magic comes from</i> <code className={style.highlight}>RxJs.</code>
           <i> It is a library in its own right which means you need to be somewhat proficient with it if you want to be able to take full advantage of it</i>
         </ListItem>
       </Appear>

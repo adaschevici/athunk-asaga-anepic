@@ -29,7 +29,7 @@ export default (
       <List>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>A means of composing any actions together as individual streams with complex join operations like</i> <code>zip</code> <i>and</i> <code>combineWith</code>
+            <i>A means of composing any actions together as individual streams with complex join operations like</i> <code className={style.highlight}>zip</code> <i>and</i> <code className={style.highlight}>combineWith</code>
 					</ListItem>
 				</Appear>
       </List>

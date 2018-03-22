@@ -29,7 +29,7 @@ export default (
       <List>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>A more explicit path to cancellation by calling</i> <code>unsubscribe</code> <i>on the subscription object returned from the dispatch</i>
+            <i>A more explicit path to cancellation by calling</i> <code className={style.highlight}>unsubscribe</code> <i>on the subscription object returned from the dispatch</i>
 					</ListItem>
 				</Appear>
       </List>
