@@ -83,6 +83,8 @@ const importSlides = [
   import('./slides/62'),
   import('./slides/63'),
   import('./slides/64'),
+  import('./slides/64.5'),
+  import('./slides/64.75'),
   import('./slides/65'),
   import('./slides/66'),
 ];
