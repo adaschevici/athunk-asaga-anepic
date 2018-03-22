@@ -3,7 +3,7 @@ function yell (text) {
   console.log(text + '!')
 }
 
-yell('bonjour') // 'bonjour!'
+yell('Salut') // 'Salut!'
 
 // Lazy (or "thunked") version
 function thunkedYell (text) {
@@ -12,11 +12,11 @@ function thunkedYell (text) {
   }
 }
 
-const thunk = thunkedYell('bonjour') // no action yet.
+const thunk = thunkedYell('Salut') // no action yet.
 
 // wait for it…
 
-thunk() // 'bonjour!'
+thunk() // 'Salut!'
 
 const yell        = text =>       console.log(text + '!')
 const thunkedYell = text => () => console.log(text + '!')
