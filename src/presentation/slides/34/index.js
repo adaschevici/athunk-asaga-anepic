@@ -34,9 +34,14 @@ export default (
           src={images.picklerick.replace("/", "")}
           className={style.picklerick}
         />
-        <Text className={style.urlSize}>
-          https://youtu.be/xDuwrtwYHu8
-        </Text>
+        <div>
+          <Text className={style.urlSize}>
+            https://youtu.be/xDuwrtwYHu8
+          </Text>
+          <Text className={style.urlSize}>
+            Catie McCaffrey
+          </Text>
+        </div>
       </div>
       <Handle />
     </div>
