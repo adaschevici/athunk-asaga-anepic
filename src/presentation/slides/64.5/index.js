@@ -32,7 +32,7 @@ export default (
       </Appear>
       <Appear>
         <ListItem className={style.item}>
-          <i>i feel that some functions are not as straight forward when using sagas, such as cancelling actions</i>
+          <i>I feel that some functions are not as straight forward when using sagas, such as cancelling actions</i>
         </ListItem>
       </Appear>
       <Appear>
