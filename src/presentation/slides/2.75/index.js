@@ -18,7 +18,7 @@ const notes = `Before i start anything i would like to make sure and
 
 export default (
   <Slide
-    transition={[]}
+    transition={["zoom", "slide"]}
     className={styles.slideSize}
   >
     <div>
@@ -26,10 +26,6 @@ export default (
         <Heading size={1} className={styles.title}>
           Foolish assumptions I have made ...
         </Heading>
-        <Image
-          src={images.redux.replace("/", "")}
-          className={styles.redux}
-        />
       </div>
       <Handle />
     </div>
