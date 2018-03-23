@@ -41,15 +41,11 @@ export default (
       margin="0px auto 40px"
       barSize={barSize}
     />
-    <Appear>
-      <div>
-        <Text style={firstBubble}>State state</Text>
-        <Text style={secondBubble}>State state</Text>
-      </div>
-    </Appear>
-    <Appear fid="2">
-      <Heading size={3}>...the bartender asks, what is the state of affairs?</Heading>
-    </Appear>
+    <div>
+      <Text style={firstBubble}>State state</Text>
+      <Text style={secondBubble}>State state</Text>
+    </div>
+    <Heading size={3}>...the bartender asks, what is the state of affairs?</Heading>
     <Handle />
   </Slide>
 );
