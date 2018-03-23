@@ -30,8 +30,8 @@ export default (
     <List>
       <Appear>
         <ListItem className={style.item}>
-          <i>epics have a lot of functionality from the RxJs library, this means a lot of composability features, mapping merging 
-            waiting for results. RxJs is a very powerful library for working with streams</i>
+          <i>epics have a lot of functionality from the </i><code className={style.highlight}>RxJs</code><i> library, this means a lot of composability features, mapping merging 
+            waiting for results.</i> <code className={style.highlight}>RxJs</code> <i>is a very powerful library for working with streams</i>
         </ListItem>
       </Appear>
       <Appear>
