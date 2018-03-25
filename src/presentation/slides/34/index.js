@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Heading, Text, Appear, Image, Link } from 'spectacle';
+import { Slide, Heading, Text, Image } from 'spectacle';
 
 import preloader from "spectacle/lib/utils/preloader";
 
@@ -9,6 +9,8 @@ import Handle from '../../utils/handle';
 const images = {
   picklerick: require('../../../assets/pickle-rick.png'),
 };
+
+preloader(images);
 
 const notes = `you can read more about micros and sagas at this link`;
 

@@ -1,12 +1,5 @@
 import React from 'react';
-import { Slide, Image, Heading, Appear, Text } from 'spectacle';
 import CodeSlide from 'spectacle-code-slide';
-
-import preloader from "spectacle/lib/utils/preloader";
-
-import style from './style.scss';
-import Handle from '../../utils/handle';
-
 
 /* eslint-disable */
 

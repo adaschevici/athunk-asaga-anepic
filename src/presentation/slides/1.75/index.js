@@ -1,5 +1,5 @@
 import React from 'react';
-import { Appear, Slide, Image, Heading, List, ListItem, Fit, Text } from 'spectacle';
+import { Appear, Slide, Image, Heading } from 'spectacle';
 
 import preloader from "spectacle/lib/utils/preloader";
 import Handle from '../../utils/handle';
@@ -10,14 +10,6 @@ const images = {
 };
 
 preloader(images);
-
-const titleStyle = {
-  fontSize: "356px",
-};
-
-const barSize = {
-  width: '100%',
-};
 
 export default (
   <Slide

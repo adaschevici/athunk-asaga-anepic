@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Heading, Image } from 'spectacle';
+import { Slide, Heading } from 'spectacle';
 
 import preloader from "spectacle/lib/utils/preloader";
 import style from './style.scss';
@@ -9,12 +9,6 @@ const images = {
 };
 
 preloader(images);
-
-const stayClassyStyle = {
-  width: "2800px",
-  height: "550px",
-  marginTop: "20%",
-};
 
 export default (
   <Slide

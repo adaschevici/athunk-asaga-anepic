@@ -1,7 +1,5 @@
 import React from 'react';
-import { Slide, Heading, Text, Appear, Image, List, ListItem } from 'spectacle';
-
-import preloader from "spectacle/lib/utils/preloader";
+import { Slide, Heading } from 'spectacle';
 
 import style from './style.scss';
 import Handle from '../../utils/handle';

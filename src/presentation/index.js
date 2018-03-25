@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Deck, Slide } from 'spectacle';
-import CodeSlide from 'spectacle-code-slide';
-import Terminal from 'spectacle-terminal';
 import createTheme from 'spectacle-theme-nova';
 
 const importSlides = [

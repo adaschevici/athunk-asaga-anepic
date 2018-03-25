@@ -1,20 +1,12 @@
 import React from 'react';
-import { Slide, Image, Heading, Appear } from 'spectacle';
-
-import preloader from "spectacle/lib/utils/preloader";
+import { Slide, Heading } from 'spectacle';
 
 import styles from './style.scss';
 import Handle from '../../utils/handle';
 
-const images = {
-  redux: require('../../../assets/redux.png'),
-};
-
-preloader(images);
-
 export default (
   <Slide
-    transition={[]}
+    transition={["zoom", "slide"]}
     className={styles.slideSize}
   >
     <div>

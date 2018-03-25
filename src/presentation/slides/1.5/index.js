@@ -1,5 +1,5 @@
 import React from 'react';
-import { Appear, Slide, Image, Heading, List, ListItem, Fit, Text } from 'spectacle';
+import { Slide, Image, Heading, Text } from 'spectacle';
 
 import preloader from "spectacle/lib/utils/preloader";
 import Handle from '../../utils/handle';
@@ -9,9 +9,7 @@ const images = {
   bar: require('../../../assets/bar-pic.jpg'),
 };
 
-const titleStyle = {
-  fontSize: "356px",
-};
+preloader(images);
 
 const barSize = {
   width: '100%',
