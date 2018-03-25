@@ -1,7 +1,5 @@
 import React from 'react';
-import { Slide, Heading, Text, Appear, Image, List, ListItem } from 'spectacle';
-
-import preloader from "spectacle/lib/utils/preloader";
+import { Slide, Heading, Appear, List, ListItem } from 'spectacle';
 
 import style from './style.scss';
 import Handle from '../../utils/handle';
@@ -46,17 +44,17 @@ export default (
       <List>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>😱 Inconsistent API</i>
+            <span role="img" aria-label="warning">😱</span><i> Inconsistent API</i>
 					</ListItem>
 				</Appear>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>😱 Impurity</i>
+            <span role="img" aria-label="warning">😱</span> <i>Impurity</i>
 					</ListItem>
 				</Appear>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>😱 Tight Coupling</i>
+            <span role="img" aria-label="warning">😱</span> <i>Tight Coupling</i>
 					</ListItem>
 				</Appear>
       </List>
