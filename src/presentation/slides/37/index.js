@@ -20,6 +20,7 @@ export default (
   <Slide
     transition={["zoom", "slide"]}
     className={style.slideSize}
+    notes={notes}
   >
     <Heading size={1} className={style.saga}>
       Sagas

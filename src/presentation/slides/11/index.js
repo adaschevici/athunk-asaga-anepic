@@ -12,8 +12,6 @@ const images = {
 
 preloader(images);
 
-const notes = ``;
-
 export default (
   <Slide
     transition={["zoom", "slide"]}

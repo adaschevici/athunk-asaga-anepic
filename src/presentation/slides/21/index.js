@@ -4,7 +4,7 @@ import { Slide, Heading, Appear, List, ListItem } from 'spectacle';
 import style from './style.scss';
 import Handle from '../../utils/handle';
 
-const notes = `Now our components sometimes call store.dispatch(syncActionCreator()), and sometimes call doSomeAsyncThing().`;
+const notes1 = `Now our components sometimes call store.dispatch(syncActionCreator()), and sometimes call doSomeAsyncThing().`;
 
 const notes2 = `The asyncLogin function isn't pure; it has a side effect (network call). Of course eventually
   we must make that call, and we'll see a solution
@@ -19,10 +19,13 @@ const notes3 = `The asyncLogin function is tightly coupled to
   Redux store, e.g. for server-side rendering? Or no real
   store at all, e.g. using a mock for testing?`;
 
+const notes = `${notes1} ${notes2} ${notes3}`;
+
 export default (
   <Slide
     transition={["zoom", "slide"]}
     className={style.slideSize}
+    notes={notes}
   >
     <div>
       <Heading

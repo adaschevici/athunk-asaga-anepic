@@ -19,6 +19,7 @@ export default (
   <Slide
     transition={["zoom", "slide"]}
     className={style.slideSize}
+    notes={notes}
   >
     <div>
       <Heading

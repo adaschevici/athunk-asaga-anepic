@@ -1,18 +1,6 @@
 import React from 'react';
 import CodeSlide from 'spectacle-code-slide';
 
-import preloader from "spectacle/lib/utils/preloader";
-
-const images = {
-  dizzy: require('../../../assets/dizzy-emoji.jpeg'),
-};
-
-preloader(images);
-
-const notes = `// The thunk itself (dispatch => axios.get…) has not yet been called.
-  // When it reaches the middleware, redux-thunk will intercept & invoke it,
-  // passing in the store's dispatch.`
-
 /* eslint-disable */
 
 export default (

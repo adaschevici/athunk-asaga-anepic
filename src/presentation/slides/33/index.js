@@ -13,9 +13,6 @@ const images = {
 
 preloader(images);
 
-const notes = `you can hijack the action functionality completely, you can cancel actions
-  throttle, debounce`;
-
 export default (
   <Slide
     transition={["zoom", "slide"]}

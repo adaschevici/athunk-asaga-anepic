@@ -20,6 +20,7 @@ export default (
     lang="js"
     bgColor="#002833"
     code={require("raw-loader!../../../assets/code/saga_flights")}
+    notes={notes}
     ranges={[
       { loc: [0, 270], title: "What should a saga look like?" },
       { loc: [0, 1], note: "you get a generator function" },

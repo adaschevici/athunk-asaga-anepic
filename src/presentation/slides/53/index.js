@@ -18,6 +18,7 @@ export default (
     transition={["zoom", "slide"]}
     transitionDuration={500}
     bgImage={images.epicSchema}
+    notes={notes}
   >
   </Slide>
 );

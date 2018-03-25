@@ -9,8 +9,6 @@ const images = {
 
 preloader(images);
 
-const notes = `we can use Observable ajax method to fetch data`;
-
 /* eslint-disable */
 
 export default (

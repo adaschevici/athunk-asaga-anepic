@@ -26,6 +26,7 @@ export default (
     transition={["slide", "spin"]}
     transitionDuration={1000}
     bgImage={images.birdieTeam.replace("/", "")}
+    notes={notes}
   >
     <div style={{ display: "flex", flexDirection: "row", height: "25.000em", width: "21.875em" }}>
       <Appear>

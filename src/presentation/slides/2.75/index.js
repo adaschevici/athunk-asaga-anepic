@@ -20,6 +20,7 @@ export default (
   <Slide
     transition={["zoom", "slide"]}
     className={styles.slideSize}
+    notes={notes}
   >
     <div>
       <div className={styles.column}>

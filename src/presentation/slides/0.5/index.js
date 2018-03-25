@@ -16,6 +16,7 @@ export default (
     transition={["zoom", "slide"]}
     transitionDuration={500}
     bgImage={images.atomic}
+    notes={notes}
   >
   </Slide>
 );

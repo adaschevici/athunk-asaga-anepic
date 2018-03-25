@@ -4,9 +4,6 @@ import { Slide, Text, Appear } from 'spectacle';
 import style from './style.scss';
 import Handle from '../../utils/handle';
 
-const notes = `You can manage your state through
-  the way the state for your components is stored.`;
-
 export default (
   <Slide
     transition={["zoom", "slide"]}

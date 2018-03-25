@@ -12,8 +12,6 @@ const images = {
 
 preloader(images);
 
-const notes = `Before we begin`;
-
 export default (
   <Slide
     transition={[]}

@@ -13,6 +13,7 @@ export default (
   <Slide
     transition={[]}
     className={styles.slideSize}
+    notes={notes}
   >
     <div>
       <Heading size={1} className={styles.title}>

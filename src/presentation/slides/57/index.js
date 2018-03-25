@@ -15,10 +15,11 @@ const notes = `Observables are quite handy and very composable. You can consume 
 /* eslint-disable */
 
 export default (
- <CodeSlide
+  <CodeSlide
     transition={["zoom", "slide"]}
     lang="js"
     bgColor="#002833"
+    notes={notes}
     code={require("raw-loader!../../../assets/code/redux_observable")}
     ranges={[
       { loc: [0, 270], title: "Observables are pretty neat" },

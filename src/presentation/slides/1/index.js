@@ -9,6 +9,7 @@ export default (
     transition={["zoom", "slide"]}
     transitionDuration={500}
     bgColor="primary"
+    notes={notes}
     id="title"
   >
     <Heading

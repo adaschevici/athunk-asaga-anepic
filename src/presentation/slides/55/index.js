@@ -4,9 +4,6 @@ import { Slide, Heading, Appear, List, ListItem } from 'spectacle';
 import style from './style.scss';
 import Handle from '../../utils/handle';
 
-const notes = `you can hijack the action functionality completely, you can cancel actions
-  throttle, debounce`;
-
 export default (
   <Slide
     transition={["zoom", "slide"]}

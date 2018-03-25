@@ -12,13 +12,17 @@ const images = {
 
 preloader(images);
 
-const notes = `State is a wonderful thing. In Physics and chemistry its all about
-  substances transitioning state. Everyone is or should be aware of state transitions.
-  We have ice transitioning to water transitioning to steam and that is all fine and great.
-  It's all quite happy and miraculous`;
+const notes = `We are here to talk about state . In physics state is a
+  very basic thing we learn in grade school when we learn about water
+  transiting through its states.`;
 
 export default (
-  <Slide transition={["zoom", "slide"]} transitionDuration={500} bgColor="primary">
+  <Slide
+    transition={["zoom", "slide"]}
+    transitionDuration={500}
+    bgColor="primary"
+    notes={notes}
+  >
     <Appear>
       <Image
         src={images.iceCube.replace("/", "")}

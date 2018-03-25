@@ -18,8 +18,9 @@ const notes = `But i am not really here to talk to you about my job but rather t
 
 export default (
   <Slide
-    transition={[]}
+    transition={["zoom", "slide"]}
     className={styles.slideSize}
+    notes={notes}
   >
     <div>
       <div className={styles.column}>

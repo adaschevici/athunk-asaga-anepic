@@ -13,7 +13,7 @@ const images = {
 preloader(images);
 
 const notes = `For example we may have an observable that is composed of two other observables,
-  and instead of Observable.merge you use Observable.of, seems similar but it isn't. In sagas thigns are more
+  and instead of Observable.merge you use Observable.of, seems similar but it isn't. In sagas things are more
   sequential which allows you to make a bit more sense out of the flow.`;
 
 export default (
@@ -22,6 +22,7 @@ export default (
     transitionDuration={500}
     bgImage={images.usability}
     bgDarken={0.7}
+    notes={notes}
   >
     <Heading
       className={style.func}

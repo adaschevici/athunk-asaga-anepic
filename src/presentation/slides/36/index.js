@@ -19,6 +19,7 @@ export default (
     transition={["zoom", "slide"]}
     lang="js"
     bgColor="#002833"
+    notes={notes}
     code={require("raw-loader!../../../assets/code/generator")}
     ranges={[
       { loc: [0, 270], title: "A javascript genny" },

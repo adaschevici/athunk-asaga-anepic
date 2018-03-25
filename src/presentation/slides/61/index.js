@@ -22,6 +22,7 @@ export default (
   <Slide
     transition={["zoom", "slide"]}
     className={style.slideSize}
+    notes={notes}
   >
     <Image
       src={images.epics.replace("/", "")}
