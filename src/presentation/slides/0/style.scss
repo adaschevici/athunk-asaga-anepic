@@ -1,3 +1,9 @@
+@mixin hdtv {
+  @media only screen and (max-width: 1281px) {
+    @content;
+  }
+}
+
 .title {
   margin-left: 20% !important;
 }
@@ -30,4 +36,32 @@
   margin-top: -11% !important;
   margin-left: 90% !important;
   width: 360px !important;
+}
+
+@include hdtv {
+  .iceCube {
+    margin-left: -10% !important;
+    margin-top: 20% !important;
+    width: 200px;
+  }
+  .leftArrow {
+    margin-left: 15% !important;
+    margin-top: -20% !important;
+    width: 100px;
+  }
+  .iceCubeMelting {
+    margin-top: -11% !important;
+    margin-left: 30% !important;
+    width: 360px !important;
+  }
+  .leftArrow2 {
+    margin-left: 70% !important;
+    margin-top: -20% !important;
+    width: 100px;
+  }
+  .steam {
+    margin-top: -11% !important;
+    margin-left: 80% !important;
+    width: 360px !important;
+  }
 }
