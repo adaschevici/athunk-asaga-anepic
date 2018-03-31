@@ -24,7 +24,7 @@ export default (
       <List>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>The means to use reactive programming and composition to create async effects that dispatch actions to your redux reducer(s)</i>
+            <i>A straight-forward path for canceling those async actions via reactive composition</i>
 					</ListItem>
 				</Appear>
       </List>

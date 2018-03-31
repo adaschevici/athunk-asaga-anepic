@@ -22,12 +22,12 @@ export default (
     <Heading
       className={style.func}
     >
-      What Q's should you be asking...
+      What Q's you should be asking...
     </Heading>
     <List>
       <Appear>
         <ListItem className={style.item}>
-          <i>Does my team know RxJs?</i>
+          <i>Does my team know </i> <code className={style.highlight}>RxJs</code><i>?</i>
         </ListItem>
       </Appear>
       <Appear>
