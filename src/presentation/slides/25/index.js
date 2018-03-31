@@ -23,7 +23,7 @@ export default (
     notes={notes}
   >
       <Heading
-        className={style.title}
+        size={2}
       >
         However you would prevent your mind from being...
       </Heading>
