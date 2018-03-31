@@ -1,3 +1,21 @@
 .slideSize {
   height: 100%;
 }
+
+.birdie {
+  position: absolute !important;
+  margin-top: 30% !important;
+  margin-left: 35% !important;
+  height: 60% !important;
+  border-radius: 18.750em;
+}
+
+@media only screen and (max-height: 720px) {
+  .birdie {
+    position: absolute !important;
+    margin-top: 25% !important;
+    margin-left: 35% !important;
+    height: 60% !important;
+    border-radius: 18.750em;
+  }
+}
