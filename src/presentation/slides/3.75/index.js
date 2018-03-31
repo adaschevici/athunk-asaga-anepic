@@ -1,7 +1,7 @@
 import React from 'react';
 import { Slide, Heading } from 'spectacle';
 
-import styles from './style.scss';
+import style from './style.scss';
 import Handle from '../../utils/handle';
 
 const notes = `We can either structure our state through the way it works,
@@ -12,12 +12,14 @@ const notes = `We can either structure our state through the way it works,
 export default (
   <Slide
     transition={[]}
-    className={styles.slideSize}
+    className={style.slideSize}
     notes={notes}
   >
     <div>
-      <Heading size={1} className={styles.title}>
-        Semantics VS Implementation
+      <Heading size={1} className={style.title}>
+        <div className={style.titlepart}>Semantics</div>
+        <div classeName={style.titlepart}>VS</div>
+        <div className={style.titlepart}>Implementation</div>
       </Heading>
       <Handle />
     </div>

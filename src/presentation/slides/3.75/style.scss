@@ -11,9 +11,22 @@
   color: lighten(red, 20%) !important;
   font-size: 140px !important;
   animation: title-spin 0.5s linear;
+  margin-left: -10% !important;
+  margin-top: 10% !important;
+}
+
+.titlepart {
+  margin: auto;
+  width: 105% !important;
 }
 
 @keyframes title-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 1281px) {
+  .title {
+    font-size: 135px !important;
+  }
 }
