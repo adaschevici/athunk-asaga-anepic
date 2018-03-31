@@ -32,7 +32,7 @@ export default (
       >
         <i>(continued)</i>
       </Heading>
-      <div style={{ display: 'flex', flexDirection: 'row' }}>
+      <div style={{ display: 'flex', flexDirection: 'row', paddingTop: '10%' }}>
         <Image
           src={images.picklerick.replace("/", "")}
           className={style.picklerick}
