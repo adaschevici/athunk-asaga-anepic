@@ -7,3 +7,11 @@
   color: lighten(green, 20%) !important;
   font-size: 100px !important;
 }
+
+@media only screen and (max-height: 720px) {
+  .caption {
+    margin-top: 50% !important;
+    color: lighten(green, 20%) !important;
+    font-size: 100px !important;
+  }
+}
