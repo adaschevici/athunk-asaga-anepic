@@ -42,6 +42,7 @@ const importSlides = [
   import('./slides/23'),
   import('./slides/24'),
   import('./slides/25'),
+  import('./slides/25.5'),
   import('./slides/26'),
   import('./slides/27'),
   import('./slides/28'),

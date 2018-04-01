@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Heading } from 'spectacle';
+import { Slide, Image } from 'spectacle';
 
 import preloader from "spectacle/lib/utils/preloader";
 
@@ -22,12 +22,10 @@ export default (
     className={style.slideSize}
     notes={notes}
   >
-      <Heading
-        size={1}
-        className={style.title}
-      >
-        However you would prevent your mind from being...
-      </Heading>
-      <Handle />
+    <Image
+      src={images.mindblown.replace("/", "")}
+      className={style.mindblown}
+    />
+    <Handle />
   </Slide>
 );

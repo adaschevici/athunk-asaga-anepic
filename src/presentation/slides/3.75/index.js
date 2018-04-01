@@ -18,7 +18,7 @@ export default (
     <div>
       <Heading size={1} className={style.title}>
         <div className={style.titlepart}>Semantics</div>
-        <div classeName={style.titlepart}>VS</div>
+        <div className={style.titlepart}>VS</div>
         <div className={style.titlepart}>Implementation</div>
       </Heading>
       <Handle />

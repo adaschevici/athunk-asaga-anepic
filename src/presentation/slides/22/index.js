@@ -16,6 +16,9 @@ export default (
     transition={["slide", "spin"]}
     lang="js"
     bgColor="#002833"
+    codeStyle={{
+      fontSize: "80px",
+    }}
     code={require("raw-loader!../../../assets/code/thunk_middleware")}
     ranges={[
       { loc: [0, 270], title: "An even better way to do thunks" },
