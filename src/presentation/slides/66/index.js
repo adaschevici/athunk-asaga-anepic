@@ -21,7 +21,7 @@ export default (
       textColor="secondary"
       className={style.caption}
     >
-      Stay Classy Bucharest
+      Stay Classy Roma
     </Heading>
   </Slide>
 );

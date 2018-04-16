@@ -3,8 +3,8 @@ import { Text } from 'spectacle';
 
 const handleClass = {
   position: 'absolute',
-  top: '100%',
-  left: '90%',
+  top: '95%',
+  left: '95%',
   color: '#ffb732',
 };
 

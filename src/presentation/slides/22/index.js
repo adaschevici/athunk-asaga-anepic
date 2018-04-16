@@ -17,7 +17,7 @@ export default (
     lang="js"
     bgColor="#002833"
     codeStyle={{
-      fontSize: "80px",
+      fontSize: "40px",
     }}
     code={require("raw-loader!../../../assets/code/thunk_middleware")}
     ranges={[

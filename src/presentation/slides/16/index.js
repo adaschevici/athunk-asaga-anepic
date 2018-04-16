@@ -8,6 +8,9 @@ export default (
     transition={[]}
     lang="js"
     bgColor="#002833"
+    codeStyle={{
+      fontSize: "40px",
+    }}
     code={require("raw-loader!../../../assets/code/basic_thunks")}
     ranges={[
       { loc: [0, 270], title: "A few examples of thunks" },

@@ -16,6 +16,9 @@ export default (
     transition={["zoom", "slide"]}
     lang="js"
     bgColor="#002833"
+    codeStyle={{
+      fontSize: "40px",
+    }}
     code={require("raw-loader!../../../assets/code/combined_epics")}
     ranges={[
       { loc: [0, 270], title: "A look at how to inject epics for use in redux" },

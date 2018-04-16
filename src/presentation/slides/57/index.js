@@ -19,6 +19,9 @@ export default (
     transition={["zoom", "slide"]}
     lang="js"
     bgColor="#002833"
+    codeStyle={{
+      fontSize: "40px",
+    }}
     notes={notes}
     code={require("raw-loader!../../../assets/code/redux_observable")}
     ranges={[

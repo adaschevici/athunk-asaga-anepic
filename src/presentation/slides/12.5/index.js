@@ -7,6 +7,9 @@ export default (
     transition={[]}
     lang="js"
     bgColor="#002833"
+    codeStyle={{
+      fontSize: "40px",
+    }}
     code={require("raw-loader!../../../assets/code/middleware")}
     ranges={[
       { loc: [0, 270], title: "A boring logger but proves the point" },

@@ -16,6 +16,9 @@ export default (
     transition={["zoom", "slide"]}
     lang="js"
     bgColor="#002833"
+    codeStyle={{
+      fontSize: "40px",
+    }}
     code={require("raw-loader!../../../assets/code/redux_observable_realistic")}
     ranges={[
       { loc: [0, 270], title: "A more realistic example, side effect and epic" },

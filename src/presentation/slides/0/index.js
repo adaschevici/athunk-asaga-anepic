@@ -12,9 +12,14 @@ const images = {
 
 preloader(images);
 
-const notes = `We are here to talk about state . In physics state is a
+const notes_deprecated = `We are here to talk about state . In physics state is a
   very basic thing we learn in grade school when we learn about water
   transiting through its states.`;
+
+const notes = `We are developers and as developers we love to draw analogies from
+  nature and science, and basically everything. We have titles like architects,
+  back office, front end that would have a completely different meaning if computers did not exists,
+  and today I will talk to you a little bit about state in ReatJS`;
 
 export default (
   <Slide

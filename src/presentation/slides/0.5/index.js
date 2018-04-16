@@ -8,8 +8,7 @@ const images = {
 
 preloader(images);
 
-const notes = `However in software engineering...not quite so much. If you don't manage state
-  properly more often than not it will come back and haunt you`;
+const notes = `We try to make good analogies however more often than not we fail`;
 
 export default (
   <Slide

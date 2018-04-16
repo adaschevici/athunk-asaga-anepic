@@ -16,6 +16,9 @@ export default (
     transition={["zoom", "slide"]}
     lang="js"
     bgColor="#002833"
+    codeStyle={{
+      fontSize: "40px",
+    }}
     code={require("raw-loader!../../../assets/code/thunks_before_sagas")}
     ranges={[
       { loc: [0, 270], title: "Like we said we can do everything with thunks" },

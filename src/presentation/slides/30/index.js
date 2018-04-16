@@ -8,6 +8,9 @@ export default (
     transition={["zoom", "slide"]}
     lang="js"
     bgColor="#002833"
+    codeStyle={{
+      fontSize: "40px",
+    }}
     code={require("raw-loader!../../../assets/code/sagas_basic")}
     ranges={[
       { loc: [0, 270], title: "But with sagas it looks much prettier" },

@@ -18,6 +18,9 @@ export default (
  <CodeSlide
     transition={["zoom", "slide"]}
     lang="js"
+    codeStyle={{
+      fontSize: "40px",
+    }}
     bgColor="#002833"
     notes={notes}
     code={require("raw-loader!../../../assets/code/generator")}

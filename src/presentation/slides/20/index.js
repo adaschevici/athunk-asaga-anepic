@@ -16,6 +16,9 @@ export default (
     transition={["slide", "spin"]}
     lang="js"
     bgColor="#002833"
+    codeStyle={{
+      fontSize: "40px",
+    }}
     code={require("raw-loader!../../../assets/code/bad_async_action")}
     ranges={[
       { loc: [0, 270], title: "We can make a request over HTTP using axios" },
