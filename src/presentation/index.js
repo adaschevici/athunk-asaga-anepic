@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Deck, Slide } from 'spectacle';
-import createTheme from 'spectacle-theme-nova';
+import createTheme from 'spectacle-theme-nova/bundle';
 
 const importSlides = [
   import('./slides/0'),
