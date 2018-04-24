@@ -42,7 +42,7 @@
     "react-dev-utils": "^5.0.0",
     "react-dom": "^16.2.0",
     "sass-loader": "^6.0.7",
-    "spectacle": "^4.0.0",
+    "spectacle": "^4.2.2",
     "spectacle-code-slide": "git+https://github.com/adaschevici/spectacle-code-slide.git",
     "spectacle-renderer": "^0.0.3",
     "spectacle-terminal": "git+https://github.com/adaschevici/spectacle-terminal.git",
