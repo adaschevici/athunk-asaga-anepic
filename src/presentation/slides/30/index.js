@@ -1,16 +1,13 @@
 import React from 'react';
 import CodeSlide from 'spectacle-code-slide';
 
+import defaultProps from '../../templates/spec-code-slide-template';
+
 /* eslint-disable */
 
 export default (
- <CodeSlide
-    transition={["zoom", "slide"]}
-    lang="js"
-    bgColor="#002833"
-    codeStyle={{
-      fontSize: "40px",
-    }}
+  <CodeSlide
+    {...defaultProps}
     code={require("raw-loader!../../../assets/code/sagas_basic")}
     ranges={[
       { loc: [0, 270], title: "But with sagas it looks much prettier" },

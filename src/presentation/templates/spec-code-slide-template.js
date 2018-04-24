@@ -1,5 +1,5 @@
 const defaultProps = ({
-  transition: [],
+  transition: ["slide", "spin"],
   lang: "js",
   bgColor: "#002833",
   codeStyle: {

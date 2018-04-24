@@ -3,6 +3,8 @@ import CodeSlide from 'spectacle-code-slide';
 
 import preloader from "spectacle/lib/utils/preloader";
 
+import defaultProps from '../../templates/spec-code-slide-template';
+
 const images = {
   homer: require('../../../assets/all-good.jpg'),
 };
@@ -12,13 +14,8 @@ preloader(images);
 /* eslint-disable */
 
 export default (
- <CodeSlide
-    transition={["zoom", "slide"]}
-    lang="js"
-    bgColor="#002833"
-    codeStyle={{
-      fontSize: "40px",
-    }}
+  <CodeSlide
+    {...defaultProps}
     code={require("raw-loader!../../../assets/code/redux_observable_realistic")}
     ranges={[
       { loc: [0, 270], title: "A more realistic example, side effect and epic" },

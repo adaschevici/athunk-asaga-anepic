@@ -3,6 +3,8 @@ import CodeSlide from 'spectacle-code-slide';
 
 import preloader from "spectacle/lib/utils/preloader";
 
+import defaultProps from '../../templates/spec-code-slide-template';
+
 const images = {
   dizzy: require('../../../assets/dizzy-emoji.jpeg'),
 };
@@ -15,13 +17,8 @@ const notes = `We can create a generator quite easily, we use the superstart syn
 /* eslint-disable */
 
 export default (
- <CodeSlide
-    transition={["zoom", "slide"]}
-    lang="js"
-    codeStyle={{
-      fontSize: "40px",
-    }}
-    bgColor="#002833"
+  <CodeSlide
+    {...defaultProps}
     notes={notes}
     code={require("raw-loader!../../../assets/code/generator")}
     ranges={[

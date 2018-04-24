@@ -3,6 +3,8 @@ import CodeSlide from 'spectacle-code-slide';
 
 import preloader from "spectacle/lib/utils/preloader";
 
+import defaultProps from '../../templates/spec-code-slide-template';
+
 const images = {
   homer: require('../../../assets/all-good.jpg'),
 };
@@ -15,13 +17,8 @@ const notes = `Whats going to happen is that once the app dispatches one of load
 /* eslint-disable */
 
 export default (
- <CodeSlide
-    transition={["zoom", "slide"]}
-    lang="js"
-    bgColor="#002833"
-    codeStyle={{
-      fontSize: "40px",
-    }}
+  <CodeSlide
+    {...defaultProps}
     code={require("raw-loader!../../../assets/code/saga_flights")}
     notes={notes}
     ranges={[

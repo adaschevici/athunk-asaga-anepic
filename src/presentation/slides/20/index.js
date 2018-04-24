@@ -3,6 +3,8 @@ import CodeSlide from 'spectacle-code-slide';
 
 import preloader from "spectacle/lib/utils/preloader";
 
+import defaultProps from '../../templates/spec-code-slide-template';
+
 const images = {
   wrong: require('../../../assets/wrong.jpg'),
 };
@@ -12,13 +14,8 @@ preloader(images);
 /* eslint-disable */
 
 export default (
- <CodeSlide
-    transition={["slide", "spin"]}
-    lang="js"
-    bgColor="#002833"
-    codeStyle={{
-      fontSize: "40px",
-    }}
+  <CodeSlide
+    {...defaultProps}
     code={require("raw-loader!../../../assets/code/bad_async_action")}
     ranges={[
       { loc: [0, 270], title: "We can make a request over HTTP using axios" },
