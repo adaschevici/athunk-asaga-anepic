@@ -3,6 +3,8 @@ import CodeSlide from 'spectacle-code-slide';
 
 import preloader from "spectacle/lib/utils/preloader";
 
+import defaultProps from '../../templates/spec-code-slide-template';
+
 const images = {
   dizzy: require('../../../assets/dizzy-emoji.jpeg'),
 };
@@ -12,13 +14,8 @@ preloader(images);
 /* eslint-disable */
 
 export default (
- <CodeSlide
-    transition={["zoom", "slide"]}
-    lang="js"
-    bgColor="#002833"
-    codeStyle={{
-      fontSize: "40px",
-    }}
+  <CodeSlide
+    {...defaultProps}
     code={require("raw-loader!../../../assets/code/thunks_before_sagas")}
     ranges={[
       { loc: [0, 270], title: "Like we said we can do everything with thunks" },

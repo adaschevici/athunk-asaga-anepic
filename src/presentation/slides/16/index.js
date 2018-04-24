@@ -1,16 +1,12 @@
 import React from 'react';
 import CodeSlide from 'spectacle-code-slide';
 
+import defaultProps from '../../templates/spec-code-slide-template';
 /* eslint-disable */
 
 export default (
- <CodeSlide
-    transition={[]}
-    lang="js"
-    bgColor="#002833"
-    codeStyle={{
-      fontSize: "40px",
-    }}
+  <CodeSlide
+    {...defaultProps}
     code={require("raw-loader!../../../assets/code/basic_thunks")}
     ranges={[
       { loc: [0, 270], title: "A few examples of thunks" },
