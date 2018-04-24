@@ -1,5 +1,6 @@
 import React from 'react';
 import CodeSlide from 'spectacle-code-slide';
+import defaultProps from '../../templates/spec-code-slide-template';
 
 import preloader from "spectacle/lib/utils/preloader";
 
@@ -16,12 +17,7 @@ const notes = `Observables are quite handy and very composable. You can consume 
 
 export default (
   <CodeSlide
-    transition={["zoom", "slide"]}
-    lang="js"
-    bgColor="#002833"
-    codeStyle={{
-      fontSize: "40px",
-    }}
+    {...defaultProps}
     notes={notes}
     code={require("raw-loader!../../../assets/code/redux_observable")}
     ranges={[

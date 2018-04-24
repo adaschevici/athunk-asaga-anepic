@@ -12,6 +12,7 @@ const images = {
 
 preloader(images);
 
+// eslint-disable-next-line
 const notes_deprecated = `We are here to talk about state . In physics state is a
   very basic thing we learn in grade school when we learn about water
   transiting through its states.`;

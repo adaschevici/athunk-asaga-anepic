@@ -1,15 +1,11 @@
 import React from 'react';
 import CodeSlide from 'spectacle-code-slide';
+import defaultProps from '../../templates/spec-code-slide-template';
 
 /* eslint-disable */
 export default (
   <CodeSlide
-    transition={[]}
-    lang="js"
-    bgColor="#002833"
-    codeStyle={{
-      fontSize: "40px",
-    }}
+    {...defaultProps}
     code={require("raw-loader!../../../assets/code/middleware")}
     ranges={[
       { loc: [0, 270], title: "A boring logger but proves the point" },
