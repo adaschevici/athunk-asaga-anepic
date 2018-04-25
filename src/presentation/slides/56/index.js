@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Heading, Appear, List, ListItem } from 'spectacle';
+import { Slide, Heading, List, ListItem } from 'spectacle';
 
 import style from './style.scss';
 import Handle from '../../utils/handle';
@@ -22,11 +22,9 @@ export default (
         <i>(benefits)</i>
       </Heading>
       <List>
-				<Appear>
-					<ListItem className={style.item}>
-            <i>A means of composing any actions together as individual streams with complex join operations like</i> <code className={style.highlight}>zip</code> <i>and</i> <code className={style.highlight}>combineWith</code>
-					</ListItem>
-				</Appear>
+        <ListItem className={style.item}>
+          <i>A means of composing any actions together as individual streams with complex join operations like</i> <code className={style.highlight}>zip</code> <i>and</i> <code className={style.highlight}>combineWith</code>
+        </ListItem>
       </List>
       <Handle />
     </div>

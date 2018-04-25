@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Heading, Text, Appear } from 'spectacle';
+import { Slide, Heading, Text } from 'spectacle';
 
 import style from './style.scss';
 import Handle from '../../utils/handle';
@@ -21,20 +21,16 @@ export default (
       >
         <i>(takeaways)</i>
       </Heading>
-      <Appear>
-        <div>
-          <Text className={style.item}>
-            <i>use put to dispatch actions from your sagas</i>
-          </Text>
-        </div>
-      </Appear>
-      <Appear>
-        <div>
-          <Text className={style.item}>
-            <i>wrap your </i><code className={style.highlight}>AJAX</code><i>-y requests in </i><code className={style.highlight}>call</code> <i>to wait for the result</i>
-          </Text>
-        </div>
-      </Appear>
+      <div>
+        <Text className={style.item}>
+          <i>use put to dispatch actions from your sagas</i>
+        </Text>
+      </div>
+      <div>
+        <Text className={style.item}>
+          <i>wrap your </i><code className={style.highlight}>AJAX</code><i>-y requests in </i><code className={style.highlight}>call</code> <i>to wait for the result</i>
+        </Text>
+      </div>
       <Handle />
     </div>
   </Slide>

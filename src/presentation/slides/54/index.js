@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Heading, Appear, List, ListItem } from 'spectacle';
+import { Slide, Heading, List, ListItem } from 'spectacle';
 
 import style from './style.scss';
 import Handle from '../../utils/handle';
@@ -22,11 +22,9 @@ export default (
         <i>(benefits)</i>
       </Heading>
       <List>
-				<Appear>
-					<ListItem className={style.item}>
-            <i>The means to use reactive programming and composition to create async effects that dispatch actions to your redux reducer(s)</i>
-					</ListItem>
-				</Appear>
+        <ListItem className={style.item}>
+          <i>The means to use reactive programming and composition to create async effects that dispatch actions to your redux reducer(s)</i>
+        </ListItem>
       </List>
       <Handle />
     </div>

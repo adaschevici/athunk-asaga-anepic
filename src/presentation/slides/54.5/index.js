@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Heading, Appear, List, ListItem } from 'spectacle';
+import { Slide, Heading, List, ListItem } from 'spectacle';
 
 import style from './style.scss';
 import Handle from '../../utils/handle';
@@ -22,11 +22,9 @@ export default (
         <i>(benefits)</i>
       </Heading>
       <List>
-				<Appear>
-					<ListItem className={style.item}>
-            <i>A straight-forward path for canceling those async actions via reactive composition</i>
-					</ListItem>
-				</Appear>
+        <ListItem className={style.item}>
+          <i>A straight-forward path for canceling those async actions via reactive composition</i>
+        </ListItem>
       </List>
       <Handle />
     </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Heading, Appear, List, ListItem } from 'spectacle';
+import { Slide, Heading, List, ListItem } from 'spectacle';
 
 import style from './style.scss';
 import Handle from '../../utils/handle';
@@ -22,11 +22,9 @@ export default (
         <i>(benefits)</i>
       </Heading>
       <List>
-				<Appear>
-					<ListItem className={style.item}>
-            <i>A more explicit path to cancellation by calling</i> <code className={style.highlight}>unsubscribe</code> <i>on the subscription object returned from the dispatch</i>
-					</ListItem>
-				</Appear>
+        <ListItem className={style.item}>
+          <i>A more explicit path to cancellation by calling</i> <code className={style.highlight}>unsubscribe</code> <i>on the subscription object returned from the dispatch</i>
+        </ListItem>
       </List>
       <Handle />
     </div>
