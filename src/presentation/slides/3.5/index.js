@@ -10,20 +10,18 @@ export default (
     className={style.slideSize}
   >
     <div>
-      <Appear>
-        <div className={style.item}>
-          Provided State
-          <Appear>
-            <Text className={style.subtext}>
-              <i>state is passed on by providers </i>
-              <i>by the component tree </i>
-              <i>in React this is done via the </i>
-              <code className={style.highlighted}>contextAPI </code>
-              <i>new in React 16</i>
-            </Text>
-          </Appear>
-        </div>
-      </Appear>
+      <div className={style.item}>
+        Provided State
+        <Appear>
+          <Text className={style.subtext}>
+            <i>state is passed on by providers </i>
+            <i>by the component tree </i>
+            <i>in React this is done via the </i>
+            <code className={style.highlighted}>contextAPI </code>
+            <i>new in React 16</i>
+          </Text>
+        </Appear>
+      </div>
       <Handle />
     </div>
   </Slide>

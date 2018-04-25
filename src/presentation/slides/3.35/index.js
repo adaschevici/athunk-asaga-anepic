@@ -10,18 +10,16 @@ export default (
     className={style.slideSize}
   >
     <div>
-      <Appear>
-        <div className={style.item}>
-          Relative State
-          <Appear>
-            <Text className={style.subtext}>
-              <i>this is state that you pass in through </i>
-              <code className={style.highlighted}>props </code>
-              <i>from parent to child</i>
-            </Text>
-          </Appear>
-        </div>
-      </Appear>
+      <div className={style.item}>
+        Relative State
+        <Appear>
+          <Text className={style.subtext}>
+            <i>this is state that you pass in through </i>
+            <code className={style.highlighted}>props </code>
+            <i>from parent to child</i>
+          </Text>
+        </Appear>
+      </div>
       <Handle />
     </div>
   </Slide>
