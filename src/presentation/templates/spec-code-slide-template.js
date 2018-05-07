@@ -4,7 +4,8 @@ const defaultProps = ({
   bgColor: "#002833",
   codeStyle: {
     fontSize: "40px",
-    width: "150%",
+    width: "135%",
+    marginLeft: "-15%",
   }
 });
 
