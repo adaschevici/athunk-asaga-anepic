@@ -16,28 +16,28 @@
   }
 }
 
-.handle {
+.photoCredit {
   position: absolute !important;
-  bottom: -3%;
-  left: 100%;
-  color: #ffb732,
+  bottom: -5%;
+  left: -10%;
+  color: #0892D0,
 }
 
 @include osxMax {
-  .handle {
+  .photoCredit {
     bottom: -10%;
   }
 }
 
 @include osxMonitor {
-  .handle {
+  .photoCredit {
     bottom: -16%;
   }
 }
 
 @include osxMonitorMaxed {
-  .handle {
+  .photoCredit {
     bottom: -23%;
-    left: 115%;
   }
 }
+
