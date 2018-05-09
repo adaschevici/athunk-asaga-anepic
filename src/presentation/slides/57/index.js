@@ -26,7 +26,7 @@ export default (
       { loc: [4, 5], note: "you can construct an observable from an array of actions" },
       { loc: [7, 11], note: "you can dispatch an action, each dispatch returns a subscription" },
       { loc: [12, 13], note: "and are able to cancel it later" },
-      { loc: [14, 18], note: "unsubscribing is not the ideal way to cancel actions" },
+      { loc: [14, 17], note: "unsubscribing is not the ideal way to cancel actions" },
       { loc: [17, 18], note: "RxJs gives you good ways to consume and filter through operators" },
       { loc: [50, 51], image: images.homer.replace("/", "") },
     ]}

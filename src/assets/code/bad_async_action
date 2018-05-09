@@ -1,10 +1,10 @@
 // in an action creator module:
 const asyncLogin = () =>
   axios.get('/api/auth/me')
-  .then(res => res.data)
-  .then(user => {
-    // how do we use this user object?
-  })
+    .then(res => res.data)
+    .then(user => {
+      // how do we use this user object?
+    })
 
 // somewhere in component:
 store.dispatch(asyncLogin()) // nope; `asyncLogin()` is a promise, not action

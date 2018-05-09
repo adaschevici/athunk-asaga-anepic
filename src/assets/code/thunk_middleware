@@ -6,10 +6,10 @@ const simpleLogin = user => ({ type: LOGIN, user })
 const thunkedLogin = () =>     // action creator, when invoked…
   dispatch =>                  // …returns thunk; when invoked with `dispatch`…
     axios.get('/api/auth/me')  // …performs the actual effect.
-    .then(res => res.data)
-    .then(user => {
-      dispatch(simpleLogin(user))
-    })
+      .then(res => res.data)
+      .then(user => {
+        dispatch(simpleLogin(user))
+      })
 
 // somewhere in component:
 store.dispatch(thunkedLogin()) // dispatches the thunk to the store.
