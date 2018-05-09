@@ -1,17 +1,45 @@
+@mixin osxMax {
+  @media only screen and (min-height: 900px) and (max-height: 982px) {
+    @content;
+  }
+}
+
+@mixin osxMonitorMaxed {
+  @media only screen and (min-height: 1080px) {
+    @content;
+  }
+}
+
+@mixin osxMonitor {
+  @media only screen and (min-height: 983px) and (max-height: 1080px) {
+    @content;
+  }
+}
+
 .slideSize {
   height: 100%;
 }
 
 .caption {
-  margin-top: 80% !important;
+  margin-top: 60% !important;
   color: lighten(green, 20%) !important;
   font-size: 100px !important;
 }
 
-@media only screen and (max-height: 720px) {
+@include osxMax {
   .caption {
-    margin-top: 50% !important;
-    color: lighten(green, 20%) !important;
-    font-size: 100px !important;
+    margin-top: 70% !important;
+  }
+}
+
+@include osxMonitor {
+  .caption {
+    margin-top: 80% !important;
+  }
+}
+
+@include osxMonitorMaxed {
+  .caption {
+    margin-top: 90% !important;
   }
 }
