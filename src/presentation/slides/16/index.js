@@ -9,7 +9,7 @@ export default (
     {...defaultProps}
     code={require("raw-loader!../../../assets/code/basic_thunks")}
     ranges={[
-      { loc: [0, 270], title: "A few examples of thunks" },
+      { loc: [0, 270], title: "A simple thunk example" },
       { loc: [0, 7], title: "Normally functions are eager" },
       { loc: [7, 13], note: "Thunked versions are lazy" },
       { loc: [14, 15], note: "You create a thunked version of your function" },
