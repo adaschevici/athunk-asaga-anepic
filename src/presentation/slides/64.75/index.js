@@ -12,8 +12,10 @@ const images = {
 
 preloader(images);
 
-const notes = `When choosing technology the fact is that
-  your choices have nothing to do with technology. We are
+const notes = `And youre probably wondering right about now,
+  should I go for sagas, are epics better?
+  turth is, when choosing technology the fact is that
+  your choice has nothing to do with technology. We are
   always inclined to use what we know, so if you want to pick
   a library for your team you should focus on what they know
   and what feels familiar to them. The questions you should
