@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Text, Appear } from 'spectacle';
+import { Slide, Text } from 'spectacle';
 
 import style from './style.scss';
 import Handle from '../../utils/handle';
@@ -12,13 +12,11 @@ export default (
     <div>
       <div className={style.item}>
         Relative State
-        <Appear>
-          <Text className={style.subtext}>
-            <i>this is state that you pass in through </i>
-            <code className={style.highlighted}>props </code>
-            <i>from parent to child</i>
-          </Text>
-        </Appear>
+        <Text className={style.subtext}>
+          <i>this is state that you pass in through </i>
+          <code className={style.highlighted}>props </code>
+          <i>from parent to child</i>
+        </Text>
       </div>
       <Handle />
     </div>
