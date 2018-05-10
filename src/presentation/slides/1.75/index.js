@@ -16,13 +16,11 @@ export default (
     transition={[]}
     className={style.slideSize}
   >
-    <Appear>
-      <Image
-        src={images.onFire.replace('/', '')}
-        className={style.thisisfine}
-        margin="0px auto 40px"
-      />
-    </Appear>
+    <Image
+      src={images.onFire.replace('/', '')}
+      className={style.thisisfine}
+      margin="0px auto 40px"
+    />
     <Heading size={3}>we need more state management</Heading>
     <Handle />
   </Slide>

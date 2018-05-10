@@ -34,26 +34,18 @@ export default (
         <i>(continued)</i>
       </Heading>
       <List>
-				<Appear>
-					<ListItem className={style.item}>
-						<i>first it captures the previous state</i>
-					</ListItem>
-				</Appear>
-				<Appear>
-					<ListItem className={style.item}>
-            <i>the action is dispatched to the next middleware function</i>
-					</ListItem>
-				</Appear>
-				<Appear>
-					<ListItem className={style.item}>
-            <i>all downstream middleware functions in the chain are invoked</i>
-					</ListItem>
-				</Appear>
-				<Appear>
-					<ListItem className={style.item}>
-            <i>the reducer functions in the store are called with the action payload</i>
-					</ListItem>
-				</Appear>
+        <ListItem className={style.item}>
+          <i>first it captures the previous state</i>
+        </ListItem>
+        <ListItem className={style.item}>
+          <i>the action is dispatched to the next middleware function</i>
+        </ListItem>
+        <ListItem className={style.item}>
+          <i>all downstream middleware functions in the chain are invoked</i>
+        </ListItem>
+        <ListItem className={style.item}>
+          <i>the reducer functions in the store are called with the action payload</i>
+        </ListItem>
       </List>
       <Handle />
     </div>
