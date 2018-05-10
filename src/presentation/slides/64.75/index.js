@@ -12,12 +12,20 @@ const images = {
 
 preloader(images);
 
+const notes = `When choosing technology the fact is that
+  your choices have nothing to do with technology. We are
+  always inclined to use what we know, so if you want to pick
+  a library for your team you should focus on what they know
+  and what feels familiar to them. The questions you should
+  be asking have nothing to do with technology.`;
+
 export default (
   <Slide
     transition={["zoom", "slide"]}
     transitionDuration={500}
     bgImage={images.testability}
     bgDarken={0.5}
+    notes={notes}
   >
     <Heading
       className={style.func}
