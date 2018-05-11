@@ -21,7 +21,7 @@ export default (
       className={style.thisisfine}
       margin="0px auto 40px"
     />
-    <Heading size={3}>we need more state management</Heading>
+    <Heading size={3}>we need more state</Heading>
     <Handle />
   </Slide>
 );
