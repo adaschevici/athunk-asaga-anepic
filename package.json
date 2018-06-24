@@ -19,7 +19,7 @@
     "css-loader": "0.28.11",
     "dotenv": "6.0.0",
     "dotenv-expand": "4.2.0",
-    "prismjs": "1.15.0",
+    "prismjs": "1.6.0",
     "eslint": "5.0.0",
     "eslint-config-react-app": "^2.1.0",
     "eslint-loader": "2.0.0",
@@ -106,5 +106,8 @@
   "devDependencies": {
     "npm-check-updates": "^2.14.2",
     "raw-loader": "^0.5.1"
+  },
+  "resolutions": {
+    "spectacle/**/prismjs": "1.6.0"
   }
 }
