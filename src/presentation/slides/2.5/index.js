@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Image, Appear } from 'spectacle';
+import { Slide, Image } from 'spectacle';
 
 import preloader from "spectacle/lib/utils/preloader";
 
@@ -23,12 +23,10 @@ export default (
     notes={notes}
   >
     <div style={{ display: "flex", flexDirection: "row", height: "25.000em", width: "21.875em" }}>
-      <Appear>
-        <Image
-          src={images.birdie.replace("/", "")}
-          className={style.birdie}
-        />
-      </Appear>
+      <Image
+        src={images.birdie.replace("/", "")}
+        className={style.birdie}
+      />
     </div>
   </Slide>
 );
