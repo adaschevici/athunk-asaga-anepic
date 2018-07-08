@@ -20,7 +20,7 @@ const notes_deprecated = `We are here to talk about state . In physics state is 
 const notes = `We are developers and as developers we love to draw analogies from
   nature and science, and basically everything. We have titles like architects,
   back office, front end that would have a completely different meaning if computers did not exists,
-  and today I will talk to you a little bit about state in ReatJS`;
+  and today I will talk to you a little bit about state in ReactJS`;
 
 export default (
   <Slide

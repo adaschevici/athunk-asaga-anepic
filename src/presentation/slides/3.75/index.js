@@ -4,10 +4,8 @@ import { Slide, Heading } from 'spectacle';
 import style from './style.scss';
 import Handle from '../../utils/handle';
 
-const notes = `We can either structure our state through the way it works,
-  or what it represents in the grander scheme of your apps state management.
-  you will most likely prefer to think of your state management in this way as 
-  it provides betterseparation than the layer organization of state`;
+const notes = `As our applications grow we will want to understand how the state flows
+  so that we can understand and reason about the functionality`;
 
 export default (
   <Slide

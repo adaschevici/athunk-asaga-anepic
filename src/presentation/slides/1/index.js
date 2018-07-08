@@ -2,7 +2,7 @@ import React from 'react';
 import { Slide, Heading } from 'spectacle';
 import styles from './style.scss';
 
-const notes = `But i would not take myself too seriously, we need to make some fun of our youthful naivitae.
+const notes = `But I would not take myself too seriously, we need to make some fun of ourselves.
   and that is why the title of my talk starts with a joke and it goes a little bit like this`;
 
 export default (

@@ -12,8 +12,7 @@ const images = {
 
 preloader(images);
 
-const notes = `I work in a startup where we aim to provide families with a system that allows
-  them to have peace of mind about their loved ones as they grow old.`;
+const notes = `I work in a startup where we aim to provide families with a system that   allows them to have peace of mind about their loved ones as they grow old.`;
 
 export default (
   <Slide
