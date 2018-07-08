@@ -16,6 +16,5 @@ export default (
     transitionDuration={500}
     bgImage={images.atomic}
     notes={notes}
-  >
-  </Slide>
+  />
 );
