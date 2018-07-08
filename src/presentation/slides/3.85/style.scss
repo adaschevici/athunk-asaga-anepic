@@ -1,0 +1,20 @@
+.slideSize {
+  height: 100%;
+}
+
+.column {
+  flex: 1;
+  flex-direction: column;
+}
+
+.title {
+  color: lighten(red, 20%) !important;
+  font-size: 140px !important;
+  animation: title-spin 0.5s linear;
+  margin-left: -10% !important;
+  margin-top: 10% !important;
+}
+
+.waldo {
+  opacity: 0.3;
+}
