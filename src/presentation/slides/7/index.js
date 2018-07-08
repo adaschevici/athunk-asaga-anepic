@@ -1,14 +1,26 @@
 import React from 'react';
-import { Slide, Heading, Text } from 'spectacle';
+import { Slide, Heading, Image } from 'spectacle';
 
 import style from './style.scss';
 import Handle from '../../utils/handle';
+import preloader from '../../../../node_modules/spectacle/lib/utils/preloader';
+
+const notes = `This type of state covers the seemingly simple 
+  things like loading spinners and error messages. 
+  These are used to manage HTTP results and side-effects.`
+
+const images = {
+  famguy: require('../../../assets/button-pushing-fmguy.png'),
+};
+
+preloader(images);
 
 export default (
   <Slide
     transition={["zoom", "slide"]}
     className={style.slideSize}
     id="control-semantic"
+    notes={notes}
   >
     <div>
       <Heading
@@ -16,14 +28,11 @@ export default (
       >
         Control State
       </Heading>
-      <Text className={style.subcontent}>
-        <i>
-          In contrast to the above two types of state, Control 
-          state does not represent the application’s environment. 
-          Instead, it refers to the state which the user has input 
-          into the app. Form inputs, selected items, things like that.
-        </i>
-      </Text>
+      <Image
+        src={images.famguy.replace('/', '')}
+        margin="0px auto 40px"
+        className={style.famguy}
+      />
       <Handle />
     </div>
   </Slide>
