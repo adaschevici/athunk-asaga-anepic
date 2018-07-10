@@ -30,7 +30,6 @@ const importSlides = [
   import('./slides/11'),
   import('./slides/12.25'),
   import('./slides/12.5'),
-  import('./slides/13'),
   import('./slides/14'),
   import('./slides/15'),
   import('./slides/16'),
