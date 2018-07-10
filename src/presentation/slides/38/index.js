@@ -26,7 +26,7 @@ export default (
           <code>fork</code>
         </Heading>
         <Text className={style.item}>
-          <i>performs a non-blocking operation on the function passed</i>
+          <i>performs a non-blocking call on the function passed</i>
         </Text>
       </div>
       <Handle />
