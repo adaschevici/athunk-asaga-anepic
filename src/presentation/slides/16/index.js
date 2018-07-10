@@ -10,7 +10,7 @@ export default (
     code={require("raw-loader!../../../assets/code/basic_thunks")}
     ranges={[
       { loc: [0, 270], title: "A simple thunk example" },
-      { loc: [0, 7], title: "Normally functions are eager" },
+      { loc: [0, 7], title: "Normal functions are eager" },
       { loc: [7, 13], note: "Thunked versions are lazy" },
       { loc: [14, 15], note: "You create a thunked version of your function" },
       { loc: [18, 19], note: "When you want to evaluate it you can call the thunk" },
