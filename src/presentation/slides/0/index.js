@@ -12,11 +12,6 @@ const images = {
 
 preloader(images);
 
-// eslint-disable-next-line
-const notes_deprecated = `We are here to talk about state . In physics state is a
-  very basic thing we learn in grade school when we learn about water
-  transiting through its states.`;
-
 const notes = `We are developers and as developers we love to draw analogies from
   nature and science, and basically everything. We have titles like architects,
   back office, front end that would have a completely different meaning if computers did not exists,
