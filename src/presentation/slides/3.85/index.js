@@ -27,7 +27,7 @@ export default (
       </Heading>
     </Appear>
     <Appear
-      transitionDuration="5000"
+      transitionDuration="4000"
       startValue={{ opacity: 0.3 }}
       endValue={{ opacity: 1 }}
     >
