@@ -29,7 +29,7 @@ export default (
 				</Appear>
 				<Appear>
 					<ListItem className={style.item}>
-            <i>however you can wrap a lot of api calls in a single try block</i>
+            <i>but the cool thing is you can wrap a lot of api calls in a single try block</i>
 					</ListItem>
 				</Appear>
 				<Appear>
