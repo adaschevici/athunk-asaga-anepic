@@ -27,7 +27,6 @@ export default (
       { loc: [1, 5], note: "there is a try section which we map to the next() call" },
       { loc: [5, 8], note: "and a catch section where we have mapped the throw() call" },
       { loc: [10, 11], note: "we instantiate the generator and bind it to the iterator" },
-      { loc: [10, 11], note: "we instantiate the generator and bind it to the iterator" },
       { loc: [12, 13], note: "and we call next to execute the try block" },
       { loc: [16, 17], note: "or throw something to execute the catch block" },
     ]}
